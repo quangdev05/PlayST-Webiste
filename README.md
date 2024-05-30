@@ -1,2 +1,2 @@
 # PlayST Website
- PlayST Website
+Playst.click
