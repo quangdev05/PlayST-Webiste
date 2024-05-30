@@ -1,2 +1,2 @@
-# PlayST-Webiste
- PlayST Webiste
+# PlayST-Website
+ PlayST Website
