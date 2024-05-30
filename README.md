@@ -1,3 +1,3 @@
 # PlayST Website
-Website: www.playst.click
+Website: www.playst.click 
 Minecraft Server IP: playst.click
