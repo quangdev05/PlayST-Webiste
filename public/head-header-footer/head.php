@@ -12,11 +12,11 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="PlayST">
   <meta property="og:description" content="PlayST | Minecraft Server Vietnam">
-  <meta property="og:url" content="https://www.doithe24.net">
+  <meta property="og:url" content="https://www.playst.click">
   <meta property="og:image" content="https://saigonmc.com/assets/images/card_image.b4f3f706.jpg">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="https://www.doithe24.net">
+  <meta name="twitter:title" content="https://www.playst.click">
   <meta name="twitter:description" content="PlayST | Minecraft Server Vietnam">
   <meta name="twitter:image" content="https://saigonmc.com/assets/images/card_image.b4f3f706.jpg">
 <link rel="stylesheet" href="/css/assets-app.5eb09a1c.css">

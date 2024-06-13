@@ -17,32 +17,32 @@
 
     <nav id="menu-main" aria-label="Mobile Navigation" class="opacity-0">
       <ul class="content">
-        <li><a href="https://www.doithe24.net/">Trang Chủ</a></li>
+        <li><a href="https://www.playst.click/">Trang Chủ</a></li>
         <li><a href="https://discord.gg/nd5GHtr68k" target="_blank">Cộng Đồng</a></li>
         <li><a href="terms">Điều Khoản</a></li>
-        <li><a href="membership">Membership</a></li>
-        <li><a href="account">Tài Khoản</a></li>
+        <li><a href="napcoins">Nạp Coins</a></li>
+        <li><a href="register">Đăng Ký</a></li>
       </ul>
     </nav>
 
     
     <nav class="top-menu basis-3/5 hidden xl:block" aria-label="Main Navigation Left">
       <ul>
-        <li><a href="https://www.doithe24.net/">Trang Chủ</a></li>
+        <li><a href="https://www.playst.click/">Trang Chủ</a></li>
         <li><a href="https://discord.gg/nd5GHtr68k" target="_blank">Cộng Đồng</a></li>
         <li><a href="terms">Điều Khoản</a></li>
       </ul>
     </nav>
 
-    <a class="logo basis-1/5" href="https://www.doithe24.net/">
-      <img src="" alt="PlayST">
+    <a class="logo basis-1/5" href="https://www.playst.click/">
+      <img src="https://i.imgur.com/t11ojLT.png" alt="PlayST">
     </a>
 
     <nav class="top-menu basis-3/5 hidden xl:block" aria-label="Main Navigation Right">
       <ul class="justify-end">
-        <li><a href="membership">Membership</a></li>
+        <li><a href="napcoins">Nạp Coins</a></li>
         <li><a href="download">Tải Game</a></li>
-        <li><a href="account">Tài Khoản</a></li>
+        <li><a href="register">Đăng ký</a></li>
       </ul>
     </nav>
   </header>
