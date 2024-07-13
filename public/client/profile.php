@@ -11,7 +11,7 @@ $skin_url = getSkinURL($_SESSION['username']);
 <style>
 @font-face {
     font-family: 'Minecraft';
-    src: url('https://www.playst.click/dist/font/Minecraft.woff2') format('woff2');
+    src: url('https://www.playst.click/dist/font/minecraft.woff2') format('woff2');
     src: url('https://www.playst.click/dist/font/Minecraft.woff') format('woff');
     src: url('https://www.playst.click/dist/font/Minecraft.ttf') format('truetype');
     src: url('https://www.playst.click/dist/font/Minecraft.eot?#iefix') format('embedded-opentype');
