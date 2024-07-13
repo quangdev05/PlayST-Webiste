@@ -116,7 +116,7 @@ $(document).ready(function () {
                         text: data.msg,
                         confirmButtonColor: "#0CAF60"
                     }, function () {
-                        window.location.reload()
+                        if (data.redirect) window.location = data.redirect;
                     });
                 } else {
                     swal({
@@ -151,7 +151,7 @@ $(document).ready(function () {
                         text: data.msg,
                         confirmButtonColor: "#0CAF60"
                     }, function () {
-                        window.location.reload()
+                        if (data.redirect) window.location = data.redirect;
                     });
                 } else {
                     swal({
@@ -160,6 +160,8 @@ $(document).ready(function () {
                         type: 'error',
                         text: data.msg,
                         confirmButtonColor: "#0CAF60"
+                    }, function () {
+                        if (data.redirect) window.location = data.redirect;                   
                     })
                 }
             }

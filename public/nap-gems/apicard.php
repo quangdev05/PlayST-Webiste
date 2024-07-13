@@ -15,6 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             'title'     => 'Thất bại',
             'status'    => 'error',
             'msg'       => 'Vui lòng đăng nhập',
+            'redirect' => '/login',
         ]));
     }
     if (empty($telco)) {
@@ -69,6 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     'title'     => 'Thành công',
                     'status'    => 'success',
                     'msg'       => 'Gửi thẻ thành công, vui lòng đợi kết quả',
+                    'redirect' => '/profile',
                 ]));
           } else {
             die(json_encode([
