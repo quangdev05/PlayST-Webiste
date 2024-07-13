@@ -69,6 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     'title'     => 'Thành công',
                     'status'    => 'success',
                     'msg'       => 'Gửi thẻ thành công, vui lòng đợi kết quả',
+                    'redirect' => '/profile',
                 ]));
           } else {
             die(json_encode([
