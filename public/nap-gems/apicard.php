@@ -15,6 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             'title'     => 'Thất bại',
             'status'    => 'error',
             'msg'       => 'Vui lòng đăng nhập',
+            'redirect' => '/login',
         ]));
     }
     if (empty($telco)) {
