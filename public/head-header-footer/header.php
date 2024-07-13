@@ -1,4 +1,8 @@
-  <header>
+<?php 
+    require_once(__DIR__. '/../free-gems/core/db.php');
+    require_once(__DIR__. '/../free-gems/core/helpers.php');
+?>
+<header>
     <div id="menu-btn">
       <button type="button" class="content">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -14,14 +18,18 @@
         <span class="ml-2">&#272;&Oacute;NG</span>
       </button>
     </div>
-
+    
     <nav id="menu-main" aria-label="Mobile Navigation" class="opacity-0">
       <ul class="content">
         <li><a href="https://www.playst.click/">Trang Chủ</a></li>
         <li><a href="https://discord.gg/nd5GHtr68k" target="_blank">Cộng Đồng</a></li>
-        <li><a href="terms">Điều Khoản</a></li>
-        <li><a href="napcoins">Nạp Coins</a></li>
-        <li><a href="register">Đăng Ký</a></li>
+        <li><a href="https://www.playst.click/terms">Điều Khoản</a></li>
+        <li><a href="https://www.playst.click/free-gems/">Free Gems</a></li>
+        <?php if (!isset($_SESSION['username'])) { ?>
+            <li><a href='https://www.playst.click/login'>Tài khoản</a></li>
+        <?php } else { ?>
+            <li><a href='https://www.playst.click/profile'><?= $_SESSION['username'] ?></a></li>
+        <?php } ?>
       </ul>
     </nav>
 
@@ -30,20 +38,24 @@
       <ul>
         <li><a href="https://www.playst.click/">Trang Chủ</a></li>
         <li><a href="https://discord.gg/nd5GHtr68k" target="_blank">Cộng Đồng</a></li>
-        <li><a href="terms">Điều Khoản</a></li>
+        <li><a href="https://www.playst.click/terms">Điều Khoản</a></li>
       </ul>
     </nav>
 
     <a class="logo basis-1/5" href="https://www.playst.click/">
-      <img src="https://i.imgur.com/t11ojLT.png" alt="PlayST">
+      <img src="https://i.imgur.com/Q5yVp7K.png" alt="PlayST">
     </a>
 
     <nav class="top-menu basis-3/5 hidden xl:block" aria-label="Main Navigation Right">
       <ul class="justify-end">
-        <li><a href="napcoins">Nạp Coins</a></li>
-        <li><a href="download">Tải Game</a></li>
-        <li><a href="register">Đăng ký</a></li>
-      </ul>
+        <li><a href="https://www.playst.click/free-gems/">Free Gems</a></li>
+        <li><a href="https://www.playst.click/download">Tải Game</a></li>
+        <?php if (!isset($_SESSION['username'])) { ?>
+            <li><a href='https://www.playst.click/login'>Tài khoản</a></li>
+        <?php } else { ?>
+            <li><a href='https://www.playst.click/profile'><?= $_SESSION['username'] ?></a></li>
+        <?php } ?>
+    </ul>
     </nav>
   </header>
   

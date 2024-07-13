@@ -39,11 +39,9 @@ if ($action && $user && $pass) {
 
 // Display the registration form
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Đăng Ký PlayST</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <title>Đăng Ký | PlayST</title>
+     <meta property="og:title" content="Đăng Ký | PlayST"/>
+     <meta name="twitter:title" content="Đăng Ký | PlayST"/>
     <style>
         .notice {
             padding: 10px;
@@ -73,7 +71,6 @@ if ($action && $user && $pass) {
             font-size: 14px;
         }
     </style>
-</head>
 <body>
 <?php 
     require_once(__DIR__."/../head-header-footer/head.php");
@@ -108,6 +105,9 @@ if ($action && $user && $pass) {
         </div>
         <button type="submit" name="action" value="Register" id="btn-submit" class="btn-submit">Đăng ký</button>
     </form>
+  <div class="sub-form">
+  <a href="/register" class="primary">Đăng nhập</a> 
+  </div>
     <div class="sub-form !block">
         Vui lòng đọc và tuân thủ theo <a href="/terms" target="_blank" class="text-blue-500">Điều khoản dịch vụ</a> của PlayST. Chúng tôi sẽ khoá tài khoản của bạn nếu bạn có các hành vi không phù hợp và sẽ không giải quyết bất kỳ các khiếu nại nào có liên quan.
     </div>
@@ -157,6 +157,12 @@ function process_register($user, $pass, $email, AuthMeController $controller, &$
         $_SESSION['error_message'] = $error_message;
         return false;
     } 
+    // Kiểm tra xem email đã tồn tại hay không
+    elseif ($controller->isEmailRegistered($email)) {
+        $error_message = 'Email này đã tồn tại.';
+        $_SESSION['error_message'] = $error_message;
+        return false;
+    }
     // Kiểm tra tính hợp lệ của email
     elseif (!is_email_valid($email)) {
         $error_message = 'Email không hợp lệ.';
@@ -169,11 +175,12 @@ function process_register($user, $pass, $email, AuthMeController $controller, &$
         $_SESSION['error_message'] = $error_message;
         return false;
     } else {
-        // Nếu tất cả các điều kiện đều đúng, thực hiện đăng ký
+    // Nếu tất cả các điều kiện đều đúng, thực hiện đăng ký
         $register_success = $controller->register($user, $pass, $email);
         if ($register_success) {
             $_SESSION['register_success'] = true;
             $_SESSION['user'] = $user;
+            header("refresh:1;url=/profile");
             return true;
         } else {
             $error_message = 'Đã xảy ra lỗi trong quá trình đăng ký.';

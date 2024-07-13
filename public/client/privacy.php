@@ -3,7 +3,9 @@
     require_once(__DIR__."/../head-header-footer/header.php");
 ?>
 
-  
+ <title>Chính Sách Bảo Mật | PlayST</title>
+ <meta property="og:title" content="Chính Sách Bảo Mật | PlayST/">
+ <meta name="twitter:title" content="Chính Sách Bảo Mật | PlayST/">
   <section class="main">
     <h1 class="title">Chính sách bảo mật (By SaigonMC)</h1>
 <div class="static-page">

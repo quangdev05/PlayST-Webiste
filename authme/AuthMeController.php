@@ -50,6 +50,25 @@ abstract class AuthMeController {
     }
 
     /**
+     * Returns whether the user exists in the database or not.
+     *
+     * @param string $email the username to check
+     * @return bool true if the user exists; false otherwise
+     */
+    function isEmailRegistered($email) {
+        $mysqli = $this->getAuthmeMySqli();
+        if ($mysqli !== null) {
+            $stmt = $mysqli->prepare('SELECT 1 FROM ' . self::AUTHME_TABLE . ' WHERE email = ?');
+            $stmt->bind_param('s', $email);
+            $stmt->execute();
+            return $stmt->fetch();
+        }
+
+        // Defensive default to true; we actually don't know
+        return true;
+    }
+
+    /**
      * Registers a player with the given username.
      *
      * @param string $username the username to register
@@ -116,7 +135,7 @@ abstract class AuthMeController {
      */
     private function getAuthmeMySqli() {
         // CHANGE YOUR DATABASE DETAILS HERE BELOW: host, user, password, database name
-        $mysqli = new mysqli('103.82.20.110', 'doithen1_authme', 'doithen1_authme', 'doithen1_authme');
+        $mysqli = new mysqli('localhost', 'doithen1_playst', 'doithen1_playst', 'doithen1_playst');
         if (mysqli_connect_error()) {
             printf('Could not connect to AuthMe database. Errno: %d, error: "%s"',
                 mysqli_connect_errno(), mysqli_connect_error());

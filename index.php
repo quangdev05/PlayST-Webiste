@@ -1,11 +1,13 @@
-
 <?php 
     require_once(__DIR__."/public/head-header-footer/head.php");
     require_once(__DIR__."/public/head-header-footer/header.php");
+    require_once(__DIR__.'/public/free-gems/core/db.php');
+    require_once(__DIR__.'/public/free-gems/core/helpers.php');
 ?>
   
- 
-
+<title>PlayST | Minecraft Server Vietnam</title>
+<meta property="og:title" content="PlayST | Minecraft Server Vietnam">
+<meta name="twitter:title" content="PlayST | Minecraft Server Vietnam">
   
   <div class="basis-1/4">
     <a class="btn-0" href="download">
@@ -20,7 +22,7 @@
       </span>
     </a>
 
-    <a class="btn-0" href="register">
+    <a class="btn-0" href="https://www.playst.click/profile">
       <span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"></path>
@@ -28,19 +30,19 @@
       </span>
       <span>
         <span class="name">Tài Khoản</span>
-        <span class="desc">Đăng Ký</span>
+        <span class="desc">Đăng nhập - Đăng ký</span>
       </span>
     </a>
 
-    <a class="btn-0" href="napcoins">
+    <a class="btn-0" href="nap-gems/">
       <span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M2 7h20v10H2z M4 9h16v2H4z"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.75v12.5h16.5V5.75H3.75z M3.75 8.25h16.5M7.5 12h1.5m-4.5 3h4.5"></path>
         </svg>
       </span>
       <span>
-        <span class="name">Nạp Coins</span>
-        <span class="desc">Ngân Hàng +30%</span>
+        <span class="name">Nạp Gems</span>
+        <span class="desc">Thẻ cào - Ngân hàng</span>
       </span>
     </a>
 
@@ -61,10 +63,57 @@
       <span class="flex-grow text-right text-sm" id="server-status">...</span>
     </div>
 
-    <h2 class="heading-1">Hoạt Động</h2>
-    <div class="card-grid grid-cols-2">
-      <span>Đang Cập Nhật</span><span class="text-right">...</span>
-    </div>
+    <h2 class="heading-1">Vote Ủng Hộ Server</h2>
+    <a class="btn-1" href="https://minecraft-server.net/vote/PlayST/" target="_blank">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"></path>
+        </svg>
+      </div>
+      <div>
+        <span class="font-medium">#1</span>
+      </div>
+    </a>
+    <a class="btn-1" href="https://www.trackyserver.com/server/playst-2715454" target="_blank">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"></path>
+        </svg>
+      </div>
+      <div>
+        <span class="font-medium">#2</span>
+      </div>
+    </a>
+    <a class="btn-1" href="https://topg.org/minecraft-servers/server-664608" target="_blank">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"></path>
+        </svg>
+      </div>
+      <div>
+        <span class="font-medium">#3</span>
+      </div>
+    </a>
+    <a class="btn-1" href="https://minecraft-mp.com/server-s333104" target="_blank">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"></path>
+        </svg>
+      </div>
+      <div>
+        <span class="font-medium">#4</span>
+      </div>
+    </a>
+    <a class="btn-1" href="https://topminecraftservers.org/vote/37952" target="_blank">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"></path>
+        </svg>
+      </div>
+      <div>
+        <span class="font-medium">#5</span>
+      </div>
+    </a>
   </div>
 
   
@@ -90,12 +139,17 @@
   <li class="mb-2 font-medium">
 
     <div class="flex">
-      <a class="grow" href="#" target="_blank">Đang Cập Nhật</span>
+      <a class="grow" target="_blank">Server Open Bản Chính Thức!</a>
+      <span>[14/6/2024]</span>
     </div>
 
-
+    <div class="flex mt-1 mb-4 pr-2 font-normal">
+      <span>- Sau sự thành công của bản thử nghiệm nên bọn mình quyết định phát hành bản chính thức, nhiều thứ hay và thú vị sẽ xuất hiện.</span>
+    </div>
+        <div class="flex mt-1 mb-4 pr-2 font-normal">
+      <span>- Ở đây bọn mình sẽ không tiết lộ, bạn vào server và trải nghiệm nhé!</span>
+    </div>
   </li>
-
 </ul>
 
         </div>
@@ -105,10 +159,44 @@
   <li class="mb-2 font-medium">
 
     <div class="flex">
-      <a class="grow" href="#" target="_blank">Đang Cập Nhật</span>
+      <a class="grow" target="_blank">Sự Kiện Nạp Coins</a>
+      <span>[20/6/2024 - 27/6/2024]</span>
     </div>
+
+    <div class="flex mt-1 mb-4 pr-2 font-normal">
+      <span>- Khuyến mãi 50%  khi nạp qua thẻ cào trong server</span>
+    </div>
+        <div class="flex mt-1 mb-4 pr-2 font-normal">
+      <span>- Khuyến mãi 80%  khi nạp qua ngân hàng trên website</span>
+    </div>
+
   </li>
+  <li class="mb-2 ">
+
+    <div class="flex">
+      <a class="grow" target="_blank">GiftCode Server</a>
+      <span>[21/6/2024]</span>
+    </div>
+    
+    <div class="flex mt-1 mb-4 pr-2 font-normal">
+      <span>- /code welcome</span>
+    </div>
+        <div class="flex mt-1 mb-4 pr-2 font-normal">
+      <span>- /code playst</span>
+    </div>
+     <div class="flex mt-1 mb-4 pr-2 font-normal">
+      <span>- /code fixlag</span>
+    </div>
+ <div class="flex mt-1 mb-4 pr-2 font-normal">
+      <span>- /code fixbug</span>
+    </div>
+
+
+
+  </li>
+
 </ul>
+
         </div>
 
         <div id="content-feature" class="tab-content hidden"><ul class="list-square ml-6 mr-2 text-sm">
@@ -116,11 +204,55 @@
   <li class="mb-2 font-medium">
 
     <div class="flex">
-      <a class="grow" href="#" target="_blank">Đang Cập Nhật</span>
+      <a class="grow" target="_blank">Vẫn mang những cốt lõi của tựa game gốc.</a>
+    </div>
+    
+  <li class="mb-2 font-medium">
+
+    <div class="flex">
+      <a class="grow" target="_blank">Nâng cấp thêm để có những trải nghiệm mới thú vị.</a>
+    </div>
+    
+  <li class="mb-2 font-medium">
+
+    <div class="flex">
+      <a class="grow" target="_blank">Gacha cho đôi phần kịch tính! Có thêm cả kĩ năng cho ae cày.</a>
     </div>
 
-    <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span></span>
+  <li class="mb-2 font-medium">
+
+    <div class="flex">
+      <a class="grow" target="_blank">Thêm enchant mới để chiến đấu với những con mob có level cao.</a>
+    </div>
+
+  <li class="mb-2 font-medium">
+
+    <div class="flex">
+      <a class="grow" target="_blank">Thêm boss làm tăng thú vị cho game, kho đồ để ae có chỗ cất đồ.</a>
+    </div>
+    
+  <li class="mb-2 font-medium">
+
+    <div class="flex">
+      <a class="grow" target="_blank">Rtp để dịch chuyển ngẫu nhiên, kho đồ trống -> không nhận dame từ người chơi khác.</a>
+    </div>
+    
+  <li class="mb-2 font-medium">
+
+    <div class="flex">
+      <a class="grow" target="_blank">Các công trình mới có thể khám phá cùng với ae bang hội.</a>
+    </div>
+    
+  <li class="mb-2 font-medium">
+
+    <div class="flex">
+      <a class="grow" target="_blank">Nhiều event đang chờ ae!</a>
+    </div>
+    
+  <li class="mb-2 font-medium">
+
+    <div class="flex">
+      <a class="grow" target="_blank">Còn rất nhiều thứ khác nữa đang chờ ae vào khám phá....</a>
     </div>
 
   </li>
@@ -134,66 +266,7 @@
 
   
   <div class="basis-1/4">
-
-    <h2 class="heading-0">Bảo Trì Định Kỳ</h2>
-    <div class="card text-center">
-      <div class="text-xl font-bold">Comming Soon</div>
-      <div class="text-sm">Hàng Ngày</div>
-    </div>
-
-    
-
-    <h2 class="heading-1">Vote Nhận Quà Hàng Ngày</h2>
-    <a class="btn-1" href="#" target="_blank">
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"></path>
-        </svg>
-      </div>
-      <div>
-        <span class="font-medium">#1</span>
-      </div>
-    </a>
-    <a class="btn-1" href="#" target="_blank">
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"></path>
-        </svg>
-      </div>
-      <div>
-        <span class="font-medium">#2</span>
-      </div>
-    </a>
-    <a class="btn-1" href="#" target="_blank">
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"></path>
-        </svg>
-      </div>
-      <div>
-        <span class="font-medium">#3</span>
-      </div>
-    </a>
-    <a class="btn-1" href="#" target="_blank">
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"></path>
-        </svg>
-      </div>
-      <div>
-        <span class="font-medium">#4</span>
-      </div>
-    </a>
-    <a class="btn-1" href="#" target="_blank">
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"></path>
-        </svg>
-      </div>
-      <div>
-        <span class="font-medium">#5</span>
-      </div>
-    </a>
+<iframe src="https://discord.com/widget?id=1209852721218330735&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
     <div class="max-w-xs flex flex-row items-center mt-12 mx-auto">
       <div class="min-w-fit p-1">
@@ -208,8 +281,6 @@
   </div>
 </div>
   </section>
-
-  
 <?php 
     require_once(__DIR__."/public/head-header-footer/footer.php");
 ?>

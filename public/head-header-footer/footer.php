@@ -1,14 +1,16 @@
-  <footer>
+<footer>
     <p class="text-blue-300 mb-4">
       PlayST Là Sản Phẩm Của cmalucky
       <br>
       Chúng tôi không phải là nhà phát hành chính thức của Mojang AB
+      <br><br>
+      Saigonmc.com's interface was remade into PlayST by <a style="color:yellow;">Tencer</a>. <a href="https://www.facebook.com/quangdev05" style="color:green;">QuangDev05 [GnauQ]</a>
     </p>
 
     <nav aria-label="Footer Navigation">
       <ul>
-        <li><a href="terms">Điều khoản dịch vụ</a></li>
-        <li><a href="privacy">Chính sách bảo mật</a></li>
+        <li><a href="/terms">Điều khoản dịch vụ</a></li>
+        <li><a href="/privacy">Chính sách bảo mật</a></li>
       </ul>
     </nav>
   </footer>

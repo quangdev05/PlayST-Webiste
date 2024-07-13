@@ -3,7 +3,9 @@
     require_once(__DIR__."/../head-header-footer/header.php");
 ?>
 
-  
+ <title>Tải Game | PlayST</title>
+ <meta property="og:title" content="Tải Game | PlayST"/>
+ <meta name="twitter:title" content="Tải Game | PlayST"/>
   <section class="main">
     <h1 class="title">Tải và cài đặt Minecraft - Legacy Launcher</h1>
 <div class="text-center leading-7">

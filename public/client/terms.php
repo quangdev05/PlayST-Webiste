@@ -4,7 +4,10 @@
     require_once(__DIR__."/../head-header-footer/header.php");
 ?>
 
-  
+   <title>Điều Khoản | PlayST</title>
+   <meta property="og:title" content="Điều Khoản | PlayST"/>
+   <meta name="twitter:title" content="Điều Khoản | PlayST"/>
+
   <section class="main">
     <h1 class="title">Điều khoản dịch vụ (By SaigonMC)</h1>
 <div class="static-page">

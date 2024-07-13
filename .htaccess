@@ -1,8 +1,33 @@
+RewriteEngine on
 RewriteRule ^download$ public/client/download.php [L]
 RewriteRule ^terms$ public/client/terms.php [L]
 RewriteRule ^membership$ public/client/membership.php [L]
 RewriteRule ^privacy$ public/client/privacy.php [L]
-RewriteRule ^login$ public/client/login.php [L]
 RewriteRule ^register$ public/client/register.php [L]
-RewriteRule ^forgotpass$ public/client/forgotpass.php [L]
-RewriteRule ^napcoins$ public/client/napcoins.php [L]
+RewriteRule ^profile$ public/client/profile.php [L]
+RewriteRule ^reset-password$ public/client/forgotpass.php [L]
+RewriteRule ^free-gems$ public/free-gems/index.php [L]
+RewriteRule ^login$ public/free-gems/login-v2.php [L]
+RewriteRule ^free-gems/register$ public/free-gems/register-v2.php [L]
+RewriteRule ^free-gems/verify$ public/free-gems/verify.php [L]
+RewriteRule ^free-gems/(.*)$ public/free-gems/$1 [L]
+RewriteRule ^nap-gems$ public/nap-gems/index.php.php [L]
+RewriteRule ^nap-gems/bank$ public/nap-gems/bank.php [L]
+RewriteRule ^nap-gems/(.*)$ public/nap-gems/$1 [L]
+
+
+RewriteCond %{HTTP_HOST} ^playst\.click$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.playst\.click$
+RewriteRule ^freecoins$ "https\:\/\/www\.playst\.click\/free\-gems\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^playst\.click$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.playst\.click$
+RewriteRule ^verify\.php$ "https\:\/\/www\.playst\.click\/free\-gems\/verify" [R=301,L]
+RewriteCond %{HTTP_HOST} ^playst\.click$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.playst\.click$
+RewriteRule ^free\-gems\/freecoins\/verify\.php$ "https\:\/\/www\.playst\.click\/free\-gems\/verify" [R=301,L]
+
+AddType font/woff2 .woff2
+AddType font/woff .woff
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
