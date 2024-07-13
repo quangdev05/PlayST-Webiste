@@ -35,4 +35,4 @@ if (!$isUpdate) {
   exit(json_encode(array('title' => 'Thất bại', 'status' => 'error', 'msg' => 'Đã xảy ra lỗi!, vui lòng liên hệ admin để xử lý')));
 }
   
-exit(json_encode(array('title' => 'Thành công', 'status' => 'success', 'msg' => 'Đổi mật khẩu thành công!')));
+exit(json_encode(array('title' => 'Thành công', 'status' => 'success', 'msg' => 'Đổi mật khẩu thành công! Vui lòng đăng nhập lại.', 'redirect' => 'https://www.playst.click/free-gems/logout2.php')));
