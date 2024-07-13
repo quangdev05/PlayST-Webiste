@@ -151,7 +151,7 @@ $(document).ready(function () {
                         text: data.msg,
                         confirmButtonColor: "#0CAF60"
                     }, function () {
-                        window.location.reload()
+                        if (data.redirect) window.location = data.redirect;
                     });
                 } else {
                     swal({
