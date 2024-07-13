@@ -160,6 +160,8 @@ $(document).ready(function () {
                         type: 'error',
                         text: data.msg,
                         confirmButtonColor: "#0CAF60"
+                    }, function () {
+                        if (data.redirect) window.location = data.redirect;                   
                     })
                 }
             }
