@@ -3,4 +3,4 @@
 # PlayST Website
 📘 Website: www.playst.click
 <br>💥 Minecraft Server IP: playst.click
-<br>💖 Website redesigned from SaigonMC for PlayST by QuangDev05 of Nexus Studio.
+<br>💖 Saigonmc.com's interface was remade into PlayST by Tencer. [QuangDev05 [GnauQ]](https://www.facebook.com/quangdev05)
