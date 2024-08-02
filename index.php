@@ -159,40 +159,14 @@
   <li class="mb-2 font-medium">
 
     <div class="flex">
-      <a class="grow" target="_blank">Sự Kiện Nạp Coins</a>
+      <a class="grow" target="_blank">Sự Kiện Nạp Gems</a>
       <span>[16/7/2024 - 20/7/2024]</span>
     </div>
 
     <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- Khuyến mãi X2 nạp Gems</span>
+      <span>- Khuyến mãi X2</span>
     </div>
   </li>
-  <li class="mb-2 ">
-
-    <div class="flex">
-      <a class="grow" target="_blank">GiftCode Server</a>
-      <span>[Bảo Trì]</span>
-    </div>
-    
-    <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- /code welcome</span>
-    </div>
-        <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- /code playst</span>
-    </div>
-     <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- /code fixlag</span>
-    </div>
- <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- /code fixbug</span>
-    </div>
-    <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- /code ss2</span> 
-      </div>
-  </li>
-
-</ul>
-
         </div>
 
         <div id="content-feature" class="tab-content hidden"><ul class="list-square ml-6 mr-2 text-sm">
