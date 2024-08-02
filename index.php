@@ -139,19 +139,18 @@
   <li class="mb-2 font-medium">
 
     <div class="flex">
-      <a class="grow" target="_blank">Server Open Bản Chính Thức!</a>
-      <span>[14/6/2024]</span>
+      <a class="grow" target="_blank">Server Open Season 2!</a>
+      <span>[02/08/2024]</span>
     </div>
 
     <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- Sau sự thành công của bản thử nghiệm nên bọn mình quyết định phát hành bản chính thức, nhiều thứ hay và thú vị sẽ xuất hiện.</span>
+      <span>- Season 2, phiên bản big update từ bản chính thức Season 1.</span>
     </div>
         <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- Ở đây bọn mình sẽ không tiết lộ, bạn vào server và trải nghiệm nhé!</span>
+      <span>- Tham gia ngay để trải nghiệm sinh tồn, chiến tranh thú vị nhé!</span>
     </div>
   </li>
 </ul>
-
         </div>
 
         <div id="content-event" class="tab-content hidden"><ul class="list-square ml-6 mr-2 text-sm">
@@ -167,6 +166,7 @@
       <span>- Khuyến mãi X2</span>
     </div>
   </li>
+  </ul>
         </div>
 
         <div id="content-feature" class="tab-content hidden"><ul class="list-square ml-6 mr-2 text-sm">
