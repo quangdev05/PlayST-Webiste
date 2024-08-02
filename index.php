@@ -163,7 +163,7 @@
     </div>
 
     <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- Khuyến mãi X2</span>
+      <span>- Khuyến mãi X2 Gems</span>
     </div>
   </li>
   </ul>
