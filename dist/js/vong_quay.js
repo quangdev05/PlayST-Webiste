@@ -72,7 +72,7 @@ $(document).ready(function() {
                     currentRotate += 360 * 10;
                     rotateWheel(currentRotate, response.gift.index);
                     showGift(response.gift);
-                    $('#luot_quay').text(response.luot_quay); // Cập nhật số lượt quay
+                    $('#luot_quay').text(response.turns); // Cập nhật số lượt quay
                 }
             },
             error: function(error) {

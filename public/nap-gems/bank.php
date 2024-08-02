@@ -4,9 +4,10 @@
     require_once(__DIR__."/../head-header-footer/header.php");
  	require_once('../free-gems/core/db.php');
     require_once('../free-gems/core/helpers.php');
+    $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 ?>
   
-  <?php
+   <?php
 // Thêm vào phần xử lý submit hoặc phần xử lý đặt lịch trình
 if (isset($_POST['submit'])) {
     // Xử lý khi form được submit
@@ -27,7 +28,8 @@ $PTDUNG->update("recharge_logs", array('status' => 4), "status = 3 AND create_ti
  <meta name="twitter:title" content="Ngân Hàng | PlayST"/>
 <section class="main">
 <button class="tab rounded-tl-lg" onclick="window.location.href='https://www.playst.click/nap-gems/'">Nạp thẻ</button>
-<button class="tab rounded-tr-lg tab-selected">Ngân hàng</button>
+<button class="tab tab-selected">Ngân hàng</button>
+<button class="tab rounded-tr-lg" onclick="window.location.href='https://thesieuviet.net/recharge/gems-playst'">Thẻ Siêu Việt</button>
 </div>
     <form action="bank#ghi-chu" method="POST" class="form-wrapper" id="napBank" onsubmit="return redirectToLoginIfEmpty();">
         <input type='hidden' name='_csrf' value='wvx0B2Ux-0w0D1wzEYH-TZcUbzu7791hSonA'>
@@ -43,7 +45,7 @@ $PTDUNG->update("recharge_logs", array('status' => 4), "status = 3 AND create_ti
                     
                     <input type="text" class="form-control" name="tentk" id="tentkInput" required placeholder="Chủ tài khoản" readonly/>
                 
-                    <input type="text" class="form-control" name="username" id="usernameInput" value="<?= $_SESSION['username'] ?>" required placeholder="Tên nhân vật (Vui Lòng Đăng Nhập)" readonly onclick="redirectToLoginIfEmpty()"/>
+                    <input type="text" class="form-control" name="username" id="usernameInput" value="<?= $username ?>" required placeholder="Tên nhân vật (Vui Lòng Đăng Nhập)" readonly onclick="redirectToLoginIfEmpty()"/>
                     
                     <input type="number" class="form-control" name="gems" id="gemsInput" required placeholder="Gems (1 Gems = 700đ)"/>
                     

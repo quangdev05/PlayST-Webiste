@@ -160,22 +160,18 @@
 
     <div class="flex">
       <a class="grow" target="_blank">Sự Kiện Nạp Coins</a>
-      <span>[20/6/2024 - 27/6/2024]</span>
+      <span>[16/7/2024 - 20/7/2024]</span>
     </div>
 
     <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- Khuyến mãi 50%  khi nạp qua thẻ cào trong server</span>
+      <span>- Khuyến mãi X2 nạp Gems</span>
     </div>
-        <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- Khuyến mãi 80%  khi nạp qua ngân hàng trên website</span>
-    </div>
-
   </li>
   <li class="mb-2 ">
 
     <div class="flex">
       <a class="grow" target="_blank">GiftCode Server</a>
-      <span>[21/6/2024]</span>
+      <span>[Bảo Trì]</span>
     </div>
     
     <div class="flex mt-1 mb-4 pr-2 font-normal">
@@ -190,9 +186,9 @@
  <div class="flex mt-1 mb-4 pr-2 font-normal">
       <span>- /code fixbug</span>
     </div>
-
-
-
+    <div class="flex mt-1 mb-4 pr-2 font-normal">
+      <span>- /code ss2</span> 
+      </div>
   </li>
 
 </ul>

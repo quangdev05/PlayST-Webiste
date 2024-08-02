@@ -1,9 +1,6 @@
 <?php
-session_start();
 
 require_once('rcon.php');
-
-use Thedudeguy\Rcon;
 
 $PTDUNG = new PTDUNG;
 
@@ -144,13 +141,14 @@ function plus_money($username,$money)
 {
     global $PTDUNG;
     $host = $PTDUNG->site('host_rcon');
-    $port = $PTDUNG->site('host_port');
-    $password = $PTDUNG->site('host_pass');
-    $timeout = $PTDUNG->site('host_timeout');
+    $port = $PTDUNG->site('port_rcon');
+    $password = $PTDUNG->site('pass_rcon');
+    $timeout = $PTDUNG->site('timeout_rcon');
     
     $rcon = new Rcon($host, $port, $password, $timeout);
     if ($rcon->connect()) {
-        $rcon->sendCommand("p give $username $money");
+        $rcon->send_command("p give $username $money");
+        $rcon->disconnect();
         return true;
     } else {
         return false;
@@ -161,13 +159,14 @@ function rcon_nap($username, $money)
 {
     global $PTDUNG;
     $host = $PTDUNG->site('host_rcon');
-    $port = $PTDUNG->site('host_port');
-    $password = $PTDUNG->site('host_pass');
-    $timeout = $PTDUNG->site('host_timeout');
+    $port = $PTDUNG->site('port_rcon');
+    $password = $PTDUNG->site('pass_rcon');
+    $timeout = $PTDUNG->site('timeout_rcon');
     
     $rcon = new Rcon($host, $port, $password, $timeout);
     if ($rcon->connect()) {
-        $rcon->sendCommand("dotman manual $username $money");
+        $rcon->send_command("dotman manual $username $money -d AutoCard -f");
+        $rcon->disconnect();
         return true;
     } else {
         return false;

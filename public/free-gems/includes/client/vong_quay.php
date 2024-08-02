@@ -1,5 +1,5 @@
 <?php
-    require_once(__DIR__."/../../../head-header-footer/head-vong_quay.php");
+require_once(__DIR__."/../../../head-header-footer/head-vong_quay.php");
 $user_id = $_SESSION['user_id'];
 ?>
 <section class="main">

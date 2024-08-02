@@ -2,6 +2,7 @@
 <?php 
     require_once(__DIR__."/../head-header-footer/head.php");
     require_once(__DIR__."/../head-header-footer/header.php");
+    $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 ?>
    <title>Nạp Thẻ | PlayST</title>
    <meta name="twitter:title" content="Nạp Thẻ | PlayST"/>
@@ -11,7 +12,9 @@
 <script src="/dist/js/sweetalert.min.js?v=<?=time()?>"></script>
 <section class="main">
 <button class="tab rounded-tl-lg tab-selected">Nạp thẻ</button>
-<button class="tab rounded-tr-lg" onclick="window.location.href='https://www.playst.click/nap-gems/bank'">Ngân hàng</button>
+<button class="tab" onclick="window.location.href='https://www.playst.click/nap-gems/bank'">Ngân hàng</button>
+<button class="tab rounded-tr-lg" onclick="window.location.href='https://thesieuviet.net/recharge/gems-playst'">Thẻ Siêu Việt</button>
+
     </div>
     <form class="form-wrapper" id="napThe">
         <input type='hidden' name='_csrf' value='wvx0B2Ux-0w0D1wzEYH-TZcUbzu7791hSonA'>
@@ -41,7 +44,7 @@
                         <option value="1000000">1.000.000đ</option>
       				</select>
                       <input type="number" class="form-control" name="gems" id="gems" required placeholder="Gems" readonly/>
-      				<input type="text" class="form-control" name="username" id="username" value="<?= $_SESSION['username'] ?>" required placeholder="Tên nhân vật (Vui Lòng Đăng Nhập)" readonly onclick="redirectToLoginIfEmpty()"/>
+      				<input type="text" class="form-control" name="username" id="username" value="<?= $username ?>" required placeholder="Tên nhân vật (Vui Lòng Đăng Nhập)" readonly onclick="redirectToLoginIfEmpty()"/>
                     <input type="number" class="form-control" name="code" id="code" required placeholder="Mã thẻ"/>
                     <input type="number" class="form-control" name="seri" id="seri" required placeholder="Seri thẻ"/>
                     
@@ -54,7 +57,7 @@
     <div style="color: #FFFF00;" </div>
         GHI CHÚ
     <div class="flex-grow px-2 text-xs text-gray-400" style="color: #ff0000;"> 
-            NGƯỜI CHƠI PHẢI ĐĂNG NHẬP GAME TRƯỚC KHI NẠP GEMS.
+           NGƯỜI CHƠI PHẢI ĐĂNG NHẬP GAME LẦN ĐẦU TRƯỚC KHI NẠP.
         </div>
          </div>
     </div>

@@ -39,7 +39,7 @@ if ($action === 'getGift') {
                 exit(json_encode(['error' => 'Có lỗi xảy ra khi quay! Liên hệ Admin']));
             }
         } else {
-            exit(json_encode(['error' => 'Không thể kết nối đến Rcon!']));
+            exit(json_encode(['error' => 'Không thể kết nối Rcon!']));
         }
     } else {
         exit(json_encode(['error' => 'Bạn đã hết lượt quay!']));

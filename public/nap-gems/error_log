@@ -1,1 +1,30 @@
-[07-Jul-2024 11:13:38 UTC] PHP Parse error:  syntax error, unexpected 'đ' (T_STRING) in /home/playstcl/public_html/public/nap-gems/bank.php on line 29
+[22-Jul-2024 21:17:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username in /home/tplaystclick/public_html/public/nap-gems/index.php on line 46
+[22-Jul-2024 21:17:19 Asia/Ho_Chi_Minh] PHP Stack trace:
+[22-Jul-2024 21:17:19 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/nap-gems/index.php:0
+[22-Jul-2024 21:17:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username in /home/tplaystclick/public_html/public/nap-gems/index.php on line 46
+[22-Jul-2024 21:17:58 Asia/Ho_Chi_Minh] PHP Stack trace:
+[22-Jul-2024 21:17:58 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/nap-gems/index.php:0
+[22-Jul-2024 21:18:05 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username in /home/tplaystclick/public_html/public/nap-gems/index.php on line 46
+[22-Jul-2024 21:18:05 Asia/Ho_Chi_Minh] PHP Stack trace:
+[22-Jul-2024 21:18:05 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/nap-gems/index.php:0
+[23-Jul-2024 12:30:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount2 in /home/tplaystclick/public_html/public/nap-gems/apicard.php on line 8
+[23-Jul-2024 12:30:32 Asia/Ho_Chi_Minh] PHP Stack trace:
+[23-Jul-2024 12:30:32 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/nap-gems/apicard.php:0
+[23-Jul-2024 12:30:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount2 in /home/tplaystclick/public_html/public/nap-gems/apicard.php on line 8
+[23-Jul-2024 12:30:35 Asia/Ho_Chi_Minh] PHP Stack trace:
+[23-Jul-2024 12:30:35 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/nap-gems/apicard.php:0
+[23-Jul-2024 12:30:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount2 in /home/tplaystclick/public_html/public/nap-gems/apicard.php on line 8
+[23-Jul-2024 12:30:38 Asia/Ho_Chi_Minh] PHP Stack trace:
+[23-Jul-2024 12:30:38 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/nap-gems/apicard.php:0
+[28-Jul-2024 23:05:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/tplaystclick/public_html/public/free-gems/core/db.php on line 12
+[28-Jul-2024 23:05:06 Asia/Ho_Chi_Minh] PHP Stack trace:
+[28-Jul-2024 23:05:06 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/nap-gems/bank.php:0
+[28-Jul-2024 23:05:06 Asia/Ho_Chi_Minh] PHP   2. PTDUNG->update($table = 'recharge_logs', $data = ['status' => 4], $where = 'status = 3 AND create_time < \'2024-07-28 22:50:06\'') /home/tplaystclick/public_html/public/nap-gems/bank.php:23
+[28-Jul-2024 23:05:06 Asia/Ho_Chi_Minh] PHP   3. PTDUNG->connect() /home/tplaystclick/public_html/public/free-gems/core/db.php:75
+[28-Jul-2024 23:05:06 Asia/Ho_Chi_Minh] PHP   4. mysqli_connect($host = 'localhost', $user = 'tplaystclick_playst', $password = 'tplaystclick_playst', $database = 'tplaystclick_playst') /home/tplaystclick/public_html/public/free-gems/core/db.php:12
+[28-Jul-2024 23:06:05 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/tplaystclick/public_html/public/free-gems/core/db.php on line 12
+[28-Jul-2024 23:06:05 Asia/Ho_Chi_Minh] PHP Stack trace:
+[28-Jul-2024 23:06:05 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/nap-gems/bank.php:0
+[28-Jul-2024 23:06:05 Asia/Ho_Chi_Minh] PHP   2. PTDUNG->update($table = 'recharge_logs', $data = ['status' => 4], $where = 'status = 3 AND create_time < \'2024-07-28 22:51:05\'') /home/tplaystclick/public_html/public/nap-gems/bank.php:23
+[28-Jul-2024 23:06:05 Asia/Ho_Chi_Minh] PHP   3. PTDUNG->connect() /home/tplaystclick/public_html/public/free-gems/core/db.php:75
+[28-Jul-2024 23:06:05 Asia/Ho_Chi_Minh] PHP   4. mysqli_connect($host = 'localhost', $user = 'tplaystclick_playst', $password = 'tplaystclick_playst', $database = 'tplaystclick_playst') /home/tplaystclick/public_html/public/free-gems/core/db.php:12
