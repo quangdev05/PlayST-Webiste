@@ -9,7 +9,7 @@ class PTDUNG
         if (!$this->ketnoi)
         {
             if (!$this->ketnoi) {
-                $this->ketnoi = mysqli_connect('localhost', 'tplaystclick_playst', 'tplaystclick_playst', 'tplaystclick_playst') or die('Bảo Tri');
+                $this->ketnoi = mysqli_connect('localhost', '', '', '') or die('Bảo Tri');
                 mysqli_query($this->ketnoi, "set names 'utf8'");
             }
         }
