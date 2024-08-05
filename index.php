@@ -139,7 +139,7 @@
   <li class="mb-2 font-medium">
 
     <div class="flex">
-      <a class="grow" target="_blank">Server Open Season 2!</a>
+      <a class="grow" target="_blank">Server Open Season 2</a>
       <span>[02/08/2024]</span>
     </div>
 
