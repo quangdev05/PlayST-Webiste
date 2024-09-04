@@ -336,3 +336,163 @@ Stack trace:
 [18-Jul-2024 21:33:52 Asia/Ho_Chi_Minh] PHP   2. PTDUNG->get_row($sql = 'SELECT * FROM `authme` WHERE `username`=\'Gacon05\'') /home/tplaystclick/public_html/public/free-gems/ajaxs/auth/login.php:19
 [18-Jul-2024 21:33:52 Asia/Ho_Chi_Minh] PHP   3. PTDUNG->connect() /home/tplaystclick/public_html/public/free-gems/core/db.php:118
 [18-Jul-2024 21:33:52 Asia/Ho_Chi_Minh] PHP   4. mysqli_connect($host = 'localhost', $user = 'doithen1_playst', $password = 'doithen1_playst', $database = 'doithen1_playst') /home/tplaystclick/public_html/public/free-gems/core/db.php:12
+[08-Aug-2024 22:29:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user in /home/tplaystclick/public_html/public/free-gems/ajaxs/auth/login.php on line 6
+[08-Aug-2024 22:29:54 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-Aug-2024 22:29:54 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/free-gems/ajaxs/auth/login.php:0
+[08-Aug-2024 22:29:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: pass in /home/tplaystclick/public_html/public/free-gems/ajaxs/auth/login.php on line 7
+[08-Aug-2024 22:29:54 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-Aug-2024 22:29:54 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/free-gems/ajaxs/auth/login.php:0
+[08-Aug-2024 23:20:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user in /home/tplaystclick/public_html/public/free-gems/ajaxs/auth/login.php on line 6
+[08-Aug-2024 23:20:06 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-Aug-2024 23:20:06 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/free-gems/ajaxs/auth/login.php:0
+[08-Aug-2024 23:20:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: pass in /home/tplaystclick/public_html/public/free-gems/ajaxs/auth/login.php on line 7
+[08-Aug-2024 23:20:06 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-Aug-2024 23:20:06 Asia/Ho_Chi_Minh] PHP   1. {main}() /home/tplaystclick/public_html/public/free-gems/ajaxs/auth/login.php:0
+[10-Aug-2024 14:56:51 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:56:58 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:56:59 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:57:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:57:00 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:57:01 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:57:01 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:57:02 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:57:02 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:57:07 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:57:08 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:02 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:05 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:05 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:05 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:06 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:07 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:07 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:07 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:07 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:08 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:36 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:36 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:36 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:37 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:37 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:37 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:37 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:38 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:43 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:43 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:58:43 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:59:48 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:59:54 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:59:54 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:59:55 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 14:59:55 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:00:47 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:00:52 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:00:54 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:00:55 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:00:56 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:00:56 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:00:56 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:00:57 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:00:57 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'tplaystclick_playst'@'localhost' (using password: YES) in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:02:29 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1130): Host '137.59.106.225' is not allowed to connect to this MariaDB server in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:02:31 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1130): Host '137.59.106.225' is not allowed to connect to this MariaDB server in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:02:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1130): Host '137.59.106.225' is not allowed to connect to this MariaDB server in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:02:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1130): Host '137.59.106.225' is not allowed to connect to this MariaDB server in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:02:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1130): Host '137.59.106.225' is not allowed to connect to this MariaDB server in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:02:34 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1130): Host '137.59.106.225' is not allowed to connect to this MariaDB server in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:02:35 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1130): Host '137.59.106.225' is not allowed to connect to this MariaDB server in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[10-Aug-2024 15:02:35 Asia/Ho_Chi_Minh] PHP Warning:  mysqli_connect(): (HY000/1130): Host '137.59.106.225' is not allowed to connect to this MariaDB server in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 12
+[23-Aug-2024 07:07:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 07:07:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 07:08:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 07:08:18 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 07:12:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 07:12:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 07:14:14 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 07:27:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 07:27:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 09:05:05 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 09:12:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[23-Aug-2024 17:49:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[24-Aug-2024 09:40:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[24-Aug-2024 10:40:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[24-Aug-2024 14:12:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[25-Aug-2024 08:47:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[25-Aug-2024 11:57:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[26-Aug-2024 03:51:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[26-Aug-2024 05:49:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[26-Aug-2024 06:16:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[26-Aug-2024 06:41:33 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[26-Aug-2024 06:44:36 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[26-Aug-2024 06:45:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[26-Aug-2024 07:31:49 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[26-Aug-2024 09:34:05 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[27-Aug-2024 00:41:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[27-Aug-2024 12:51:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[28-Aug-2024 09:48:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[28-Aug-2024 10:04:18 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[28-Aug-2024 10:07:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[28-Aug-2024 12:59:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[28-Aug-2024 18:59:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[28-Aug-2024 20:19:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[30-Aug-2024 07:55:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[30-Aug-2024 12:16:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[31-Aug-2024 12:52:44 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[31-Aug-2024 13:06:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[31-Aug-2024 13:13:02 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[31-Aug-2024 14:57:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[31-Aug-2024 15:36:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[31-Aug-2024 15:36:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[31-Aug-2024 16:40:48 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[31-Aug-2024 17:38:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[31-Aug-2024 17:40:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[31-Aug-2024 23:48:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[01-Sep-2024 03:13:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[01-Sep-2024 08:57:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[01-Sep-2024 09:18:00 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[01-Sep-2024 09:39:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[01-Sep-2024 13:47:33 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[01-Sep-2024 14:32:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[01-Sep-2024 16:19:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[01-Sep-2024 17:30:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[01-Sep-2024 18:16:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 00:45:33 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 01:17:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 03:08:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 03:14:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 03:16:00 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 03:17:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 03:21:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 05:21:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 05:51:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 05:57:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 06:37:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 06:41:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 06:49:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 06:50:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 06:57:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 07:10:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 07:34:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 08:07:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 10:13:21 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 11:31:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 12:21:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 12:44:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 13:25:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 13:33:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 13:38:02 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 14:28:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[02-Sep-2024 15:28:14 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[03-Sep-2024 00:26:14 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[03-Sep-2024 00:41:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[03-Sep-2024 00:56:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[03-Sep-2024 04:20:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[03-Sep-2024 06:15:00 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[03-Sep-2024 12:37:48 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2

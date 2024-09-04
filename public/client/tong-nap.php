@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "";
-$password = "";
-$dbname = "";
+$username = "k5kbef72smwn_playst";
+$password = "k5kbef72smwn_playst";
+$dbname = "k5kbef72smwn_playst";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -11,16 +11,16 @@ try {
 
     // Tổng hợp dữ liệu từ bảng recharge_logs
     $sql = "
-        SELECT 
-            user_id, 
-            REPLACE(FORMAT(SUM(amount) + SUM(REPLACE(amount2, '.', '')), 0), ',', '.') as tongnap
-        FROM 
-            recharge_logs
-        WHERE 
-            status = 1
-        GROUP BY 
-            user_id
-    ";
+    SELECT 
+        user_id, 
+        REPLACE(FORMAT(SUM(IFNULL(amount, 0)) + SUM(REPLACE(IFNULL(amount2, '0'), '.', '')), 0), ',', '.') as tongnap
+    FROM 
+        recharge_logs
+    WHERE 
+        status = 1
+    GROUP BY 
+        user_id
+";
 
     $stmt = $conn->prepare($sql);
     $stmt->execute();

@@ -147,7 +147,7 @@ function plus_money($username,$money)
     
     $rcon = new Rcon($host, $port, $password, $timeout);
     if ($rcon->connect()) {
-        $rcon->send_command("p give $username $money");
+        $rcon->send_command("points give $username $money");
         $rcon->disconnect();
         return true;
     } else {
@@ -155,7 +155,7 @@ function plus_money($username,$money)
     }
 }
 
-function rcon_nap($username, $money)
+function rcon_nap($username,$money)
 {
     global $PTDUNG;
     $host = $PTDUNG->site('host_rcon');
@@ -211,7 +211,9 @@ function checklogin() {
 function Doithe($loaithe, $menhgia, $seri, $pin, $code)
 {
     global $PTDUNG;
+    // 75416792314
     $partner_id = "75416792314"; //partner_id
+    // a06abea768b4425382b5caa17f7a88b8
     $partner_key = "a06abea768b4425382b5caa17f7a88b8";	//partner_key
     
     $ch = curl_init();

@@ -10,3 +10,62 @@
 [13-Jun-2024 11:20:09 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/playstcl/public_html/public/client/head.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/playstcl/public_html/index.php on line 2
 [13-Jun-2024 11:20:09 UTC] PHP Stack trace:
 [13-Jun-2024 11:20:09 UTC] PHP   1. {main}() /home/playstcl/public_html/index.php:0
+[07-Aug-2024 08:40:36 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:40:36 UTC] PHP Stack trace:
+[07-Aug-2024 08:40:36 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:40:36 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:40:36 UTC] PHP Stack trace:
+[07-Aug-2024 08:40:36 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:40:36 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:40:36 UTC] PHP Stack trace:
+[07-Aug-2024 08:40:36 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:45:13 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:45:13 UTC] PHP Stack trace:
+[07-Aug-2024 08:45:13 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:45:13 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:45:13 UTC] PHP Stack trace:
+[07-Aug-2024 08:45:13 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:45:13 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:45:13 UTC] PHP Stack trace:
+[07-Aug-2024 08:45:13 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:46:35 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:46:35 UTC] PHP Stack trace:
+[07-Aug-2024 08:46:35 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:46:35 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:46:35 UTC] PHP Stack trace:
+[07-Aug-2024 08:46:35 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:46:35 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:46:35 UTC] PHP Stack trace:
+[07-Aug-2024 08:46:35 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:46:40 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/tplaystclick/public_html/checksv.php on line 4
+[07-Aug-2024 08:49:55 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:49:55 UTC] PHP Stack trace:
+[07-Aug-2024 08:49:55 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:49:55 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:49:55 UTC] PHP Stack trace:
+[07-Aug-2024 08:49:55 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:49:55 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:49:55 UTC] PHP Stack trace:
+[07-Aug-2024 08:49:55 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:51:38 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:51:38 UTC] PHP Stack trace:
+[07-Aug-2024 08:51:38 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:51:38 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:51:38 UTC] PHP Stack trace:
+[07-Aug-2024 08:51:38 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[07-Aug-2024 08:51:38 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tplaystclick/public_html/checksv.php on line 21
+[07-Aug-2024 08:51:38 UTC] PHP Stack trace:
+[07-Aug-2024 08:51:38 UTC] PHP   1. {main}() /home/tplaystclick/public_html/checksv.php:0
+[13-Aug-2024 08:43:18 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[13-Aug-2024 08:44:07 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[13-Aug-2024 08:44:08 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[13-Aug-2024 08:44:21 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[13-Aug-2024 08:44:24 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[13-Aug-2024 12:00:49 UTC] PHP Warning:  require_once(/home/k5kbef72smwn/public_html/header.php): failed to open stream: No such file or directory in /home/k5kbef72smwn/public_html/index.php on line 461
+[13-Aug-2024 12:00:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/k5kbef72smwn/public_html/header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/k5kbef72smwn/public_html/index.php on line 461
+[13-Aug-2024 12:01:00 UTC] PHP Warning:  require_once(/home/k5kbef72smwn/public_html/header.php): failed to open stream: No such file or directory in /home/k5kbef72smwn/public_html/index.php on line 461
+[13-Aug-2024 12:01:00 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/k5kbef72smwn/public_html/header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/k5kbef72smwn/public_html/index.php on line 461
+[13-Aug-2024 12:01:07 UTC] PHP Warning:  require_once(/home/k5kbef72smwn/public_html/header.php): failed to open stream: No such file or directory in /home/k5kbef72smwn/public_html/index.php on line 461
+[13-Aug-2024 12:01:07 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/k5kbef72smwn/public_html/header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/k5kbef72smwn/public_html/index.php on line 461
+[13-Aug-2024 12:01:09 UTC] PHP Warning:  require_once(/home/k5kbef72smwn/public_html/header.php): failed to open stream: No such file or directory in /home/k5kbef72smwn/public_html/index.php on line 461
+[13-Aug-2024 12:01:09 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/k5kbef72smwn/public_html/header.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/k5kbef72smwn/public_html/index.php on line 461

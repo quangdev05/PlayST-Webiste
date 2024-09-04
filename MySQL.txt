@@ -1,0 +1,2 @@
+public_html/public/free-gems/core/db.php
+public_html/public/client/tong-nap.php

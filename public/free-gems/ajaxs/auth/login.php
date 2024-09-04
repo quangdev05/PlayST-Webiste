@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 require_once('../../core/db.php');
 require_once('../../core/helpers.php');
 
@@ -27,8 +27,7 @@ $user_id = $row['id'];
 $salt = get_salt($row['password']);
 $hash_pass = '$SHA$'.$salt.'$'.hash('SHA256',hash('SHA256',$user_pass).$salt);
 
-if (!$row2 = $PTDUNG->get_row("SELECT * FROM `authme` WHERE (`username`='" . $login_input . "' OR `email`='" . $login_input . "') AND `password`='" . $hash_pass
-. "'")) {
+if (!$row2 = $PTDUNG->get_row("SELECT * FROM `authme` WHERE (`username`='" . $login_input . "' OR `email`='" . $login_input . "') AND `password`='" . $hash_pass. "'")) {
     exit(json_encode(array('title' => 'Thất bại', 'status' => 'error', 'msg' => 'Tài Khoản, Email hoặc Mật Khẩu sai')));
 }
 
@@ -59,7 +58,7 @@ if (!$PTDUNG->get_row("SELECT * FROM `tong_nap` WHERE `user_id`='$user_id'")) {
     }
 }
 
-$_SESSION['username'] = ucfirst($row2['username']); // Chữ cái đầu viết hoa
+$_SESSION['username'] = $row2['realname']; // Chữ cái đầu viết hoa
 $_SESSION['user_id'] = $user_id;
 $_SESSION['email'] = $row2['email'];
 
@@ -71,5 +70,12 @@ $PTDUNG->insert("login_logs", array(
         'create_time' => get_time()
 ));
 
-exit(json_encode(array('status' => 'success', 'redirect' => '/profile')));
+// Kiểm tra và chuyển hướng nếu có URL trong session
+if (isset($_SESSION['redirect_url'])) {
+    $redirect_url = $_SESSION['redirect_url'];
+    unset($_SESSION['redirect_url']);
+    exit(json_encode(array('status' => 'success', 'redirect' => $redirect_url)));
+} else {
+    exit(json_encode(array('status' => 'success', 'redirect' => '/profile')));
+}
 ?>

@@ -135,7 +135,7 @@ abstract class AuthMeController {
      */
     private function getAuthmeMySqli() {
         // CHANGE YOUR DATABASE DETAILS HERE BELOW: host, user, password, database name
-        $mysqli = new mysqli('localhost', '', '', '');
+        $mysqli = new mysqli('localhost', 'k5kbef72smwn_playst', 'k5kbef72smwn_playst', 'k5kbef72smwn_playst');
         if (mysqli_connect_error()) {
             printf('Could not connect to AuthMe database. Errno: %d, error: "%s"',
                 mysqli_connect_errno(), mysqli_connect_error());

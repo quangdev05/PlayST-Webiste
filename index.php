@@ -139,7 +139,7 @@
   <li class="mb-2 font-medium">
 
     <div class="flex">
-      <a class="grow" target="_blank">Server Open Season 2</a>
+      <a class="grow" target="_blank">Server Open Season 2!</a>
       <span>[02/08/2024]</span>
     </div>
 
@@ -159,11 +159,14 @@
 
     <div class="flex">
       <a class="grow" target="_blank">Sự Kiện Nạp Gems</a>
-      <span>[16/7/2024 - 20/7/2024]</span>
+      <span>[27/8/2024 - 6/9/2024]</span>
     </div>
 
     <div class="flex mt-1 mb-4 pr-2 font-normal">
-      <span>- Khuyến mãi X2 Gems</span>
+      <span>- Khuyến mãi 50% Gems</span>
+      </div>
+      <div class="flex mt-1 mb-4 pr-2 font-normal">
+      <span>- Riêng 2/9 khuyến mãi x2 Gems</span>
     </div>
   </li>
   </ul>
@@ -236,7 +239,7 @@
 
   
   <div class="basis-1/4">
-<iframe src="https://discord.com/widget?id=1209852721218330735&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<iframe src="https://discord.com/widget?id=1209852721218330735&theme=dark" width="328" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
     <div class="max-w-xs flex flex-row items-center mt-12 mx-auto">
       <div class="min-w-fit p-1">

@@ -19,7 +19,7 @@ if (isset($_GET["status"])) {
     if (!$row) {
         die("Lỗi Callback");
     }
-    // $row_user = $PTDUNG->get_row("SELECT * FROM `authme` WHERE `id` = '" . $row['user_id'] . "'");
+    $row_user = $PTDUNG->get_row("SELECT * FROM `authme` WHERE `id` = '" . $row['user_id'] . "'");
     if ($status == 1) {
         $PTDUNG->update(
             "recharge_logs",
@@ -28,7 +28,7 @@ if (isset($_GET["status"])) {
             ],
             " `id` = '" . $row["id"] . "' "
         );
-        // rcon_nap($row_user['username'], $real_money);
+        rcon_nap($row_user['realname'], $real_money);
     } else {
         $PTDUNG->update(
             "recharge_logs",

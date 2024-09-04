@@ -1,13 +1,14 @@
 <html>
 <?php 
-    require_once(__DIR__.	'/../head-header-footer/head.php');
-    require_once(__DIR__.	'/../head-header-footer/header-free_gems.php');
+    require_once(__DIR__.  '/../head-header-footer/head.php');
+    require_once(__DIR__.  '/../head-header-footer/header-free_gems.php');
     require_once(__DIR__ . '/core/db.php');
     require_once(__DIR__ . '/core/rcon.php');
     require_once(__DIR__ . '/core/helpers.php');
     
     if (!isset($_SESSION['username']) || !isset($_SESSION['user_id'])) {
     	header('Location: /login');
+        $_SESSION['redirect_url'] = $_SERVER['REQUEST_URI'];
 }
 ?>
  

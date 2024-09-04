@@ -1,138 +1,218 @@
 <html>
-<?php 
-    require_once(__DIR__."/../head-header-footer/head.php");
-    require_once(__DIR__."/../head-header-footer/header.php");
-    $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
+<?php
+session_start(); // Khởi động session
+require_once(__DIR__ . "/../head-header-footer/head.php");
+require_once(__DIR__ . "/../head-header-footer/header.php");
+
+// Kiểm tra nếu người dùng chưa đăng nhập
+if (!isset($_SESSION['username'])) {
+    // Lưu URL hiện tại vào session để dùng sau khi đăng nhập
+    $_SESSION['redirect_url'] = $_SERVER['REQUEST_URI'];
+}
+
+$username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 ?>
-   <title>Nạp Thẻ | PlayST</title>
-   <meta name="twitter:title" content="Nạp Thẻ | PlayST"/>
-   <meta property="og:title" content="Nạp Thẻ | PlayST"/>
-<link rel="stylesheet" type="text/css" href="/dist/css/sweetalert.css?v=<?=time()?>">
-<script src="/assets/libs/jquery/dist/jquery-1.11.2.min.js?v=<?=time()?>"></script>
-<script src="/dist/js/sweetalert.min.js?v=<?=time()?>"></script>
+<title>Nạp Thẻ | PlayST</title>
+<meta name="twitter:title" content="Nạp Thẻ | PlayST" />
+<meta property="og:title" content="Nạp Thẻ | PlayST" />
+<link rel="stylesheet" type="text/css" href="/dist/css/sweetalert.css?v=<?= time() ?>">
+<script src="/assets/libs/jquery/dist/jquery-1.11.2.min.js?v=<?= time() ?>"></script>
+<script src="/dist/js/sweetalert.min.js?v=<?= time() ?>"></script>
 <section class="main">
-<button class="tab rounded-tl-lg tab-selected">Nạp thẻ</button>
-<button class="tab" onclick="window.location.href='https://www.playst.click/nap-gems/bank'">Ngân hàng</button>
-<button class="tab rounded-tr-lg" onclick="window.location.href='https://thesieuviet.net/recharge/gems-playst'">Thẻ Siêu Việt</button>
+    <button class="tab rounded-tl-lg tab-selected">Nạp thẻ</button>
+    <button class="tab" onclick="window.location.href='https://www.playst.click/nap-gems/bank'">Ngân hàng</button>
+    <button class="tab rounded-tr-lg" onclick="window.location.href='https://thesieuviet.net/recharge/gems-playst'">Thẻ
+        Siêu Việt</button>
 
     </div>
     <form class="form-wrapper" id="napThe">
         <input type='hidden' name='_csrf' value='wvx0B2Ux-0w0D1wzEYH-TZcUbzu7791hSonA'>
-      
-                    <select class="form-control" name="card_type" id="cardSelect">
-                        <option>Chọn loại thẻ</option>
-                        <option value="VIETTEL">Viettel</option>
-                        <option value="VINAPHONE">Vinaphone</option>
-                        <option value="MOBIFONE">Mobifone</option>
-                        <option value="VNMOBI">Vietnamobile</option>
-                        <option value="ZING">Zing</option>
-                        <option value="GATE">Gate</option>
-                        <option value="GARENA">Garena</option>
-                        <option value="VCOIN">Vcoin</option>
-                    </select>
-                    
-                    <select class="form-control" name="amount" id="amountSelect">
-                        <option>Chọn mệnh giá (sai mất thẻ)</option>
-                        <option value="10000">10.000đ</option>
-                        <option value="20000">20.000đ </option>
-                        <option value="30000">30.000đ</option>
-                        <option value="50000">50.000đ</option>
-                        <option value="100000">100.000đ</option>
-                        <option value="200000">200.000đ</option>
-                        <option value="300000">300.000đ</option>
-                        <option value="500000">500.000đ</option>
-                        <option value="1000000">1.000.000đ</option>
-      				</select>
-                      <input type="number" class="form-control" name="gems" id="gems" required placeholder="Gems" readonly/>
-      				<input type="text" class="form-control" name="username" id="username" value="<?= $username ?>" required placeholder="Tên nhân vật (Vui Lòng Đăng Nhập)" readonly onclick="redirectToLoginIfEmpty()"/>
-                    <input type="number" class="form-control" name="code" id="code" required placeholder="Mã thẻ"/>
-                    <input type="number" class="form-control" name="seri" id="seri" required placeholder="Seri thẻ"/>
-                    
-        
-        <button type="submit" id="btn-submit" class="btn-submit">Nạp Thẻ</button>
-  </form>
-  <div class="sub-form">
-  <a href="/profile" class="primary">Lịch sử nạp</a>
-      <div class="text-center leading-7">
-    <div style="color: #FFFF00;" </div>
-        GHI CHÚ
-    <div class="flex-grow px-2 text-xs text-gray-400" style="color: #ff0000;"> 
-           NGƯỜI CHƠI PHẢI ĐĂNG NHẬP GAME LẦN ĐẦU TRƯỚC KHI NẠP.
+        <div
+            style="background-color: #CF0A0A; border-radius: 12px; margin-top: 5px; padding: 10px; text-align: center;">
+            <div style="color: white; font-weight: bold; font-size: 11px;">
+                NGƯỜI CHƠI PHẢI ĐĂNG NHẬP GAME LẦN ĐẦU TRƯỚC KHI NẠP!
+            </div>
         </div>
-         </div>
-    </div>
-  
-<script src="/dist/js/post.js?v=<?= time() ?>"></script>
-    <script>
-function redirectToLoginIfEmpty() {
-    var usernameInput = document.getElementById('username').value;
-    if (!usernameInput || usernameInput.trim() === '') {
-        window.location.href = '/login';
-    }
-}
-</script>
-  </div>
-  <?php
-  $fixed_info = array(
-    "10000" => array("gems" => "10"),
-    "20000" => array("gems" => "20"),
-    "30000" => array("gems" => "30"),
-    "50000" => array("gems" => "50"),
-    "100000" => array("gems" => "100"),
-    "200000" => array("gems" => "200"),
-    "300000" => array("gems" => "300"),
-    "500000" => array("gems" => "500"),
-    "1000000" => array("gems" => "1000"),
-    // Thêm các ngân hàng khác nếu cần thiết
-);
-  ?>
-  <script>
-$(document).ready(function() {
-    $('#amountSelect').change(function() {
-        var selectedAmount = $(this).val();
-        var gems = '';
+        <select class="form-control" name="card_type" id="cardSelect">
+            <option>Chọn loại thẻ</option>
+            <option value="VIETTEL">Viettel</option>
+            <option value="VINAPHONE">Vinaphone</option>
+            <option value="MOBIFONE">Mobifone</option>
+            <option value="VNMOBI">Vietnamobile</option>
+            <option value="ZING">Zing</option>
+            <option value="GATE">Gate</option>
+            <option value="GARENA">Garena</option>
+            <option value="VCOIN">Vcoin</option>
+        </select>
 
-        switch (selectedAmount) {
-            case '10000':
-                gems = '<?php echo isset($fixed_info["10000"]) ? $fixed_info["10000"]["gems"] : ""; ?>';
-                break;
-            case '20000':
-                gems = '<?php echo isset($fixed_info["20000"]) ? $fixed_info["20000"]["gems"] : ""; ?>';
-                break;
-            case '30000':
-                gems = '<?php echo isset($fixed_info["30000"]) ? $fixed_info["30000"]["gems"] : ""; ?>';
-                break;
-            case '50000':
-                gems = '<?php echo isset($fixed_info["50000"]) ? $fixed_info["50000"]["gems"] : ""; ?>';
-                break;
-            case '100000':
-                gems = '<?php echo isset($fixed_info["100000"]) ? $fixed_info["100000"]["gems"] : ""; ?>';
-                break;
-            case '200000':
-                gems = '<?php echo isset($fixed_info["200000"]) ? $fixed_info["200000"]["gems"] : ""; ?>';
-                break;
-            case '300000':
-                gems = '<?php echo isset($fixed_info["300000"]) ? $fixed_info["300000"]["gems"] : ""; ?>';
-                break;
-            case '500000':
-                gems = '<?php echo isset($fixed_info["500000"]) ? $fixed_info["500000"]["gems"] : ""; ?>';
-                break;
-            case '1000000':
-                gems = '<?php echo isset($fixed_info["1000000"]) ? $fixed_info["1000000"]["gems"] : ""; ?>';
-                break;
-            // Thêm các trường hợp khác nếu cần thiết
-            default:
-                break;
+        <select class="form-control" name="amount" id="amountSelect">
+            <option>Chọn mệnh giá (sai mất thẻ)</option>
+            <option value="10000">10.000đ</option>
+            <option value="20000">20.000đ </option>
+            <option value="30000">30.000đ</option>
+            <option value="50000">50.000đ</option>
+            <option value="100000">100.000đ</option>
+            <option value="200000">200.000đ</option>
+            <option value="300000">300.000đ</option>
+            <option value="500000">500.000đ</option>
+            <option value="1000000">1.000.000đ</option>
+        </select>
+        <input type="text" class="form-control" name="gems2" id="gems2" required placeholder="Gems nhận được"
+            readonly />
+        <input type="text" class="form-control" name="gems" id="gems" required placeholder="Gems nhận được" readonly style="display: none;" />
+        <input type=" text" class="form-control" name="username" id="username" value="<?= $username ?>" required
+            placeholder="Tên nhân vật (Vui Lòng Đăng Nhập)" readonly onclick="redirectToLoginIfEmpty()" />
+        <input type="number" class="form-control" name="code" id="code" required placeholder="Mã thẻ" />
+        <input type="number" class="form-control" name="seri" id="seri" required placeholder="Seri thẻ" />
+
+
+        <button type="submit" id="btn-submit" class="btn-submit">Nạp Thẻ</button>
+    </form>
+    <div class="sub-form">
+        <a href="/profile" class="primary" style="position: relative; top: -15px;">Lịch sử nạp</a>
+    </div>
+    <script src="/dist/js/post.js?v=<?= time() ?>"></script>
+    <script>
+        function redirectToLoginIfEmpty() {
+            var usernameInput = document.getElementById('username').value;
+            if (!usernameInput || usernameInput.trim() === '') {
+                window.location.href = '/login';
+            }
+        }
+    </script>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#amountSelect').change(function () {
+                var selectedAmount = $(this).val();
+                var gems = '';
+                var gems2 = '';
+
+                // Xác định giá trị cho gems và gems2 dựa trên mệnh giá đã chọn
+                switch (selectedAmount) {
+                    case '10000':
+                        gems = '10+50%=15';
+                        gems2 = '10+50%=15 Gems';
+                        break;
+                    case '20000':
+                        gems = '20+50%=30';
+                        gems2 = '20+50%=30 Gems';
+                        break;
+                    case '30000':
+                        gems = '30+50%=45';
+                        gems2 = '30+50%=45 Gems';
+                        break;
+                    case '50000':
+                        gems = '50+50%=75';
+                        gems2 = '50+50%=75 Gems';
+                        break;
+                    case '100000':
+                        gems = '100+50%=150';
+                        gems2 = '100+50%=150 Gems';
+                        break;
+                    case '200000':
+                        gems = '200+50%=300';
+                        gems2 = '200+50%=300 Gems';
+                        break;
+                    case '300000':
+                        gems = '300+50%=450';
+                        gems2 = '300+50%=450 Gems';
+                        break;
+                    case '500000':
+                        gems = '500+50%=750';
+                        gems2 = '500+50%=750 Gems';
+                        break;
+                    case '1000000':
+                        gems = '1000+50%=1500';
+                        gems2 = '1000+50%=1500 Gems';
+                        break;
+                    default:
+                        break;
+                }
+
+                // Đặt giá trị gems và gems2 vào các input readonly
+                $('#gems').val(gems);
+                $('#gems2').val(gems2);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#napThe').submit(function (e) {
+                e.preventDefault();
+                $('#btn-submit').text('Loading...'); // Change button text to "Loading..."
+                $.ajax({
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    complete: function () {
+                        $('#btn-submit').text('Nạp Thẻ'); // Reset button text
+                    }
+                });
+            });
+        });
+    </script>
+    <?php
+    require_once(__DIR__ . "/../head-header-footer/footer.php");
+    ?>
+    </body>
+    <style>
+        .lds-ripple,
+        .lds-ripple div {
+            box-sizing: border-box;
         }
 
-        // Đặt giá trị gems vào input readonly
-        $('#gems').val(gems);
-    });
-});
+        .lds-ripple {
+            display: inline-block;
+            position: relative;
+            width: 80px;
+            height: 80px;
+        }
 
-    </script>
-<?php 
-    require_once(__DIR__."/../head-header-footer/footer.php");
-?>
-</body>
+        .lds-ripple div {
+            position: absolute;
+            border: 4px solid currentColor;
+            opacity: 1;
+            border-radius: 50%;
+            animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+        }
+
+        .lds-ripple div:nth-child(2) {
+            animation-delay: -0.5s;
+        }
+
+        @keyframes lds-ripple {
+            0% {
+                top: 36px;
+                left: 36px;
+                width: 8px;
+                height: 8px;
+                opacity: 0;
+            }
+
+            4.9% {
+                top: 36px;
+                left: 36px;
+                width: 8px;
+                height: 8px;
+                opacity: 0;
+            }
+
+            5% {
+                top: 36px;
+                left: 36px;
+                width: 8px;
+                height: 8px;
+                opacity: 1;
+            }
+
+            100% {
+                top: 0;
+                left: 0;
+                width: 80px;
+                height: 80px;
+                opacity: 0;
+            }
+        }
+    </style>
+
 </html>
