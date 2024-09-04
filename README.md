@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/Version-3.0-green)
+![Version](https://img.shields.io/badge/Version-3.0.0-green)
 ![GitHub license](https://img.shields.io/github/license/QuangDev05/BedSleep)
 [![Discord](https://img.shields.io/discord/1247029974154612828.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/HsSUVGSc3c)
 # PlayST Website
