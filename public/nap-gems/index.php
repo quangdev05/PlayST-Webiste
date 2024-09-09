@@ -91,40 +91,40 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
                 // Xác định giá trị cho gems và gems2 dựa trên mệnh giá đã chọn
                 switch (selectedAmount) {
                     case '10000':
-                        gems = '10+50%=15';
-                        gems2 = '10+50%=15 Gems';
+                        gems = '10';
+                        gems2 = '10 Gems';
                         break;
                     case '20000':
-                        gems = '20+50%=30';
-                        gems2 = '20+50%=30 Gems';
+                        gems = '20';
+                        gems2 = '20 Gems';
                         break;
                     case '30000':
-                        gems = '30+50%=45';
-                        gems2 = '30+50%=45 Gems';
+                        gems = '30';
+                        gems2 = '30 Gems';
                         break;
                     case '50000':
-                        gems = '50+50%=75';
-                        gems2 = '50+50%=75 Gems';
+                        gems = '50';
+                        gems2 = '50 Gems';
                         break;
                     case '100000':
-                        gems = '100+50%=150';
-                        gems2 = '100+50%=150 Gems';
+                        gems = '100';
+                        gems2 = '100 Gems';
                         break;
                     case '200000':
-                        gems = '200+50%=300';
-                        gems2 = '200+50%=300 Gems';
+                        gems = '200';
+                        gems2 = '200 Gems';
                         break;
                     case '300000':
-                        gems = '300+50%=450';
-                        gems2 = '300+50%=450 Gems';
+                        gems = '300';
+                        gems2 = '300 Gems';
                         break;
                     case '500000':
-                        gems = '500+50%=750';
-                        gems2 = '500+50%=750 Gems';
+                        gems = '500';
+                        gems2 = '500 Gems';
                         break;
                     case '1000000':
-                        gems = '1000+50%=1500';
-                        gems2 = '1000+50%=1500 Gems';
+                        gems = '1000';
+                        gems2 = '1000 Gems';
                         break;
                     default:
                         break;

@@ -168,8 +168,8 @@ $relevant_content = isset($content_parts[3]) ? trim($content_parts[3]) : '';
 // Cập nhật regex để lấy chính xác username từ PlayST
 preg_match('/PlayST (\w+)/', $relevant_content, $matches);
 $username = isset($matches[1]) ? $matches[1] : 'Không xác định';
-// $gems = floor($transferAmount / 820);
-$gems = floor(($transferAmount / 820) * 1.5);
+$gems = floor($transferAmount / 820);
+// $gems = floor(($transferAmount / 820) * 1.5);
 // $gems = floor(($transferAmount / 820) * 2);
 $nd = $id;
 

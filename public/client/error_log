@@ -15509,3 +15509,152 @@ Stack trace:
 [03-Sep-2024 19:37:51 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/NAMHOANG15): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
  in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
 [03-Sep-2024 17:12:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[04-Sep-2024 16:48:34 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[04-Sep-2024 16:48:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 9
+[04-Sep-2024 16:48:34 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[04-Sep-2024 16:48:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 13
+[04-Sep-2024 16:48:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 27
+[04-Sep-2024 16:48:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 33
+[04-Sep-2024 16:48:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/k5kbef72smwn/public_html/public/client/profile.php on line 37
+[04-Sep-2024 16:48:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 55
+[04-Sep-2024 16:48:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 76
+[04-Sep-2024 16:48:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 107
+[04-Sep-2024 09:48:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[04-Sep-2024 09:49:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[04-Sep-2024 16:49:29 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[04-Sep-2024 16:49:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 9
+[04-Sep-2024 16:49:29 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[04-Sep-2024 16:49:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 13
+[04-Sep-2024 16:49:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 27
+[04-Sep-2024 16:49:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 33
+[04-Sep-2024 16:49:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/k5kbef72smwn/public_html/public/client/profile.php on line 37
+[04-Sep-2024 16:49:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 55
+[04-Sep-2024 16:49:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 76
+[04-Sep-2024 16:49:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 107
+[04-Sep-2024 16:49:41 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[04-Sep-2024 16:49:42 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/silamtran): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[05-Sep-2024 06:52:00 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[05-Sep-2024 06:52:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 9
+[05-Sep-2024 06:52:01 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[05-Sep-2024 06:52:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 13
+[05-Sep-2024 06:52:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 27
+[05-Sep-2024 06:52:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 33
+[05-Sep-2024 06:52:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/k5kbef72smwn/public_html/public/client/profile.php on line 37
+[05-Sep-2024 06:52:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 55
+[05-Sep-2024 06:52:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 76
+[05-Sep-2024 06:52:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 107
+[05-Sep-2024 16:04:04 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[05-Sep-2024 16:04:05 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/113nguyen): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[05-Sep-2024 16:11:44 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[05-Sep-2024 16:11:45 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/113nguyen): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[05-Sep-2024 18:50:47 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[05-Sep-2024 18:50:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 9
+[05-Sep-2024 18:50:48 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[05-Sep-2024 18:50:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 13
+[05-Sep-2024 18:50:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 27
+[05-Sep-2024 18:50:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 33
+[05-Sep-2024 18:50:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/k5kbef72smwn/public_html/public/client/profile.php on line 37
+[05-Sep-2024 18:50:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 55
+[05-Sep-2024 18:50:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 76
+[05-Sep-2024 18:50:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 107
+[05-Sep-2024 13:47:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[05-Sep-2024 20:43:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[06-Sep-2024 02:04:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[06-Sep-2024 11:47:42 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[06-Sep-2024 11:47:43 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/anhyeuemlam912): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[06-Sep-2024 11:59:20 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[06-Sep-2024 11:59:20 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/anhyeuemlam912): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[06-Sep-2024 12:03:45 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[06-Sep-2024 12:03:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 9
+[06-Sep-2024 12:03:46 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[06-Sep-2024 12:03:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 13
+[06-Sep-2024 12:03:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 27
+[06-Sep-2024 12:03:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 33
+[06-Sep-2024 12:03:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/k5kbef72smwn/public_html/public/client/profile.php on line 37
+[06-Sep-2024 12:03:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 55
+[06-Sep-2024 12:03:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 76
+[06-Sep-2024 12:03:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 107
+[06-Sep-2024 12:04:00 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[06-Sep-2024 12:04:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 9
+[06-Sep-2024 12:04:01 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[06-Sep-2024 12:04:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 13
+[06-Sep-2024 12:04:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 27
+[06-Sep-2024 12:04:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 33
+[06-Sep-2024 12:04:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/k5kbef72smwn/public_html/public/client/profile.php on line 37
+[06-Sep-2024 12:04:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 55
+[06-Sep-2024 12:04:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 76
+[06-Sep-2024 12:04:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 107
+[06-Sep-2024 12:05:07 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[06-Sep-2024 12:05:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 9
+[06-Sep-2024 12:05:08 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[06-Sep-2024 12:05:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 13
+[06-Sep-2024 12:05:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 27
+[06-Sep-2024 12:05:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 33
+[06-Sep-2024 12:05:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/k5kbef72smwn/public_html/public/client/profile.php on line 37
+[06-Sep-2024 12:05:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 55
+[06-Sep-2024 12:05:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 76
+[06-Sep-2024 12:05:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 107
+[06-Sep-2024 08:36:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[06-Sep-2024 21:11:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[07-Sep-2024 03:21:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[07-Sep-2024 22:28:51 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[07-Sep-2024 22:28:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 9
+[07-Sep-2024 22:28:52 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[07-Sep-2024 22:28:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 13
+[07-Sep-2024 22:28:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 27
+[07-Sep-2024 22:28:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 33
+[07-Sep-2024 22:28:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/k5kbef72smwn/public_html/public/client/profile.php on line 37
+[07-Sep-2024 22:28:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 55
+[07-Sep-2024 22:28:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 76
+[07-Sep-2024 22:28:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 107
+[08-Sep-2024 01:07:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[08-Sep-2024 08:07:54 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[08-Sep-2024 08:07:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 9
+[08-Sep-2024 08:07:54 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[08-Sep-2024 08:07:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 13
+[08-Sep-2024 08:07:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 27
+[08-Sep-2024 08:07:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 33
+[08-Sep-2024 08:07:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/k5kbef72smwn/public_html/public/client/profile.php on line 37
+[08-Sep-2024 08:07:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 55
+[08-Sep-2024 08:07:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 76
+[08-Sep-2024 08:07:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 107
+[08-Sep-2024 06:35:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[08-Sep-2024 06:35:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[08-Sep-2024 12:42:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[08-Sep-2024 12:42:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[08-Sep-2024 18:15:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[09-Sep-2024 02:03:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[09-Sep-2024 02:08:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/free-gems/core/db.php on line 2
+[09-Sep-2024 20:20:23 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[09-Sep-2024 20:50:18 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[09-Sep-2024 20:50:26 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[09-Sep-2024 20:50:47 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[09-Sep-2024 20:51:05 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[09-Sep-2024 20:51:53 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[09-Sep-2024 20:52:24 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[09-Sep-2024 20:54:59 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7
+[09-Sep-2024 20:54:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 9
+[09-Sep-2024 20:55:00 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/k5kbef72smwn/public_html/public/free-gems/core/helpers.php on line 179
+[09-Sep-2024 20:55:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 13
+[09-Sep-2024 20:55:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 27
+[09-Sep-2024 20:55:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 33
+[09-Sep-2024 20:55:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/k5kbef72smwn/public_html/public/client/profile.php on line 37
+[09-Sep-2024 20:55:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/k5kbef72smwn/public_html/public/client/profile.php on line 55
+[09-Sep-2024 20:55:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 76
+[09-Sep-2024 20:55:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/k5kbef72smwn/public_html/public/client/profile.php on line 107
+[09-Sep-2024 20:55:49 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/k5kbef72smwn/public_html/public/client/profile.php on line 7

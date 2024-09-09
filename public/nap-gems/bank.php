@@ -55,7 +55,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
             placeholder="Tên nhân vật (Vui Lòng Đăng Nhập)" readonly onclick="redirectToLoginIfEmpty()" />
 
         <input type="number" class="form-control" name="gems" id="gemsInput" required
-            placeholder="Gems (1 Gems = 820đ)[+50% Gems]" />
+            placeholder="Gems (1 Gems = 820đ)" />
 
         <input type=" text" name="money2" id="money2" required placeholder="Tổng thanh toán (VND)"
             value="<?php echo isset($money) ? htmlspecialchars($money) : ''; ?>" readonly />
