@@ -178,7 +178,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 
             setInterval(function () {
                 var username = $('#usernameInput').val();
-                var content = 'PlayST ' + username;
+                var content = 'PlayST ' + username + 'Player';
                 $('#ndInput').val(content);
             }, 100); // 100ms = 0.1s
 
