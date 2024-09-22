@@ -161,29 +161,29 @@ $id = $input['id'];
 $content = $input['content'];
 $transferAmount = $input['transferAmount'];
 
-// Tách phần content sau dấu '.'
-$content_parts = explode('.', $content);
-$relevant_content = isset($content_parts[3]) ? trim($content_parts[3]) : '';
-
-// Cập nhật regex để lấy chính xác username từ PlayST
-preg_match('/PlayST (\w+)/', $relevant_content, $matches);
+// Cập nhật regex để lấy chính xác username từ PlayST và dừng ở player
+preg_match('/PlayST\s+([^\s]+)Player/', $content, $matches);
 $username = isset($matches[1]) ? $matches[1] : 'Không xác định';
 $gems = floor($transferAmount / 820);
-// $gems = floor(($transferAmount / 820) * 1.5);
-// $gems = floor(($transferAmount / 820) * 2);
 $nd = $id;
 
-// Tạo kết nối RCON và gửi lệnh
-$rcon = new Rcon($rcon_host, $rcon_port, $rcon_password, $timeout_rcon);
-if ($rcon->connect()) {
-    $rcon_command = "dotman manual $username $transferAmount -p $gems -d $nd -f";
-    $rcon_success = $rcon->send_command($rcon_command);
-    $status = $rcon_success ? "Thành công" : "Thất bại";
-    writeLog("RCON command result: " . $rcon->get_response());
-    $rcon->disconnect();
-} else {
+// Nếu không xác định được tên nhân vật, đặt trạng thái là "Thất bại"
+if ($username === 'Không xác định') {
     $status = "Thất bại";
-    writeLog("Failed to connect to RCON");
+    writeLog("Failed to determine username");
+} else {
+    // Tạo kết nối RCON và gửi lệnh
+    $rcon = new Rcon($rcon_host, $rcon_port, $rcon_password, $timeout_rcon);
+    if ($rcon->connect()) {
+        $rcon_command = "dotman manual $username $transferAmount -p $gems -d $nd -f";
+        $rcon_success = $rcon->send_command($rcon_command);
+        $status = $rcon_success ? "Thành công" : "Thất bại";
+        writeLog("RCON command result: " . $rcon->get_response());
+        $rcon->disconnect();
+    } else {
+        $status = "Thất bại";
+        writeLog("Failed to connect to RCON");
+    }
 }
 
 // Xác định trạng thái giao dịch
