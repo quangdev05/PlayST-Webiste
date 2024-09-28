@@ -70,12 +70,6 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
         </div>
     </form>
     </div>
-    </div>
-    </div>
-    <div class="sub-form">
-        <a href="/profile" class="primary" style="position: relative; top: -15px;">Lịch sử nạp</a>
-    </div>
-    <br>
     <?php
     function check_string($data)
     {
