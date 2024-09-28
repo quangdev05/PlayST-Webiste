@@ -1,9 +1,9 @@
 <?php
 // Các thông tin cấu hình (điền trực tiếp vào mã nguồn)
-$rcon_host = '103.29.2.188';
-$rcon_port = '19132';
-$rcon_password = 'PlaySTNetwork24';
-$discord_webhook_url = 'https://discord.com/api/webhooks/1277184378728091678/HEqZnq1l4BVMD7ZMP7HJBRWbmX828x7mTC99sC7QUu-91xQcNy8JpQNu4Zlvvd3WFvaj';
+$rcon_host = '';
+$rcon_port = '';
+$rcon_password = '';
+$discord_webhook_url = '';
 $timeout_rcon = 3; // Thời gian chờ RCON
 
 // Hàm ghi log
