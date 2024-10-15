@@ -5,7 +5,7 @@
       Chúng tôi không phải là nhà phát hành chính thức của Mojang AB
       <br><br>
       Saigonmc.com's interface was remade into PlayST by Tencer Software Co., Ltd.
-    </p>
+    
 
     <nav aria-label="Footer Navigation">
       <ul>
