@@ -4,7 +4,7 @@
       <br>
       Chúng tôi không phải là nhà phát hành chính thức của Mojang AB
       <br><br>
-      Saigonmc.com's interface was remade into PlayST by <a style="color:yellow;">Tencer</a>. <a href="https://www.facebook.com/quangdev05" style="color:green;">QuangDev05 [GnauQ]</a>
+      Saigonmc.com's interface was remade into PlayST by Tencer Software Co., Ltd.
     </p>
 
     <nav aria-label="Footer Navigation">
