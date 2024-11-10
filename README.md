@@ -5,7 +5,7 @@
 ## Thông tin:
 📘 Website: www.playst.click
 <br>💥 Minecraft Server IP: playst.click
-<br>💖 Saigonmc.com's interface was remade into PlayST by Tencer. [QuangDev05 [GnauQ]](https://www.facebook.com/quangdev05)
+<br>💖 Saigonmc.com's interface was remade into PlayST by Tencer Software Co., Ltd.
 ## Contact:
 - **Tác giả:** QuangDev05 [GnauQ]
 - **Facebook:** [Phạm Quang](https://www.facebook.com/quangdev05)
