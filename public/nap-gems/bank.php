@@ -21,11 +21,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
     <button class="tab rounded-tl-lg" onclick="window.location.href='https://www.playst.click/nap-gems/'">Nạp
         thẻ</button>
     <button class="tab tab-selected">Ngân hàng</button>
-<<<<<<< HEAD
     <button class="tab rounded-tr-lg" onclick="window.location.href='https://thesieuviet.net/recharge/playst-network'">Thẻ
-=======
-    <button class="tab rounded-tr-lg" onclick="window.location.href='https://thesieuviet.net/recharge/playst'">Thẻ
->>>>>>> 2b63e770ef0aa4f5adb505199ad66a034ce98ff2
         Siêu Việt</button>
     </div>
     <form action="bank#submit" method="POST" class="form-wrapper" id="napBank"
