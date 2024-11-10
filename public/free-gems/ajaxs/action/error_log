@@ -3193,3 +3193,25 @@ Stack trace:
 [19-Sep-2024 13:32:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
 [21-Sep-2024 15:26:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
 [21-Sep-2024 22:08:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[22-Sep-2024 21:22:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[22-Sep-2024 21:28:25 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[22-Sep-2024 21:28:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[24-Sep-2024 21:31:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[24-Sep-2024 21:34:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[27-Sep-2024 16:11:52 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user_id" in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[27-Sep-2024 16:11:52 Asia/Ho_Chi_Minh] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/tplaystclick/public_html/public/free-gems/core/helpers.php on line 41
+[27-Sep-2024 16:12:07 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user_id" in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[27-Sep-2024 16:12:07 Asia/Ho_Chi_Minh] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/tplaystclick/public_html/public/free-gems/core/helpers.php on line 41
+[02-Oct-2024 12:59:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[02-Oct-2024 12:59:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[02-Oct-2024 12:59:54 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[02-Oct-2024 12:59:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[02-Oct-2024 13:02:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[02-Oct-2024 13:02:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[02-Oct-2024 13:03:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[02-Oct-2024 13:03:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[02-Oct-2024 13:03:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[02-Oct-2024 18:20:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[04-Oct-2024 22:27:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[15-Oct-2024 19:28:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
+[15-Oct-2024 19:29:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/public/free-gems/ajaxs/action/vong_quay.php on line 5
