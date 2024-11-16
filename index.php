@@ -1,14 +1,14 @@
 <?php 
-    require_once(__DIR__."/public/head-header-footer/head.php");
-    require_once(__DIR__."/public/head-header-footer/header.php");
-    require_once(__DIR__.'/public/free-gems/core/db.php');
-    require_once(__DIR__.'/public/free-gems/core/helpers.php');
+    require_once(__DIR__."/includes/head.php");
+    require_once(__DIR__."/includes/header.php");
+    require_once(__DIR__."/config/db.php");
+    require_once(__DIR__."/includes/helpers.php");
 ?>
-  
-<title>PlayST | Minecraft Server Vietnam</title>
-<meta property="og:title" content="PlayST | Minecraft Server Vietnam">
-<meta name="twitter:title" content="PlayST | Minecraft Server Vietnam">
-  
+
+  <body class="bg-global_0">
+      
+  <section class="main">
+<div class="home">
   <div class="basis-1/4">
     <a class="btn-0" href="download">
       <span>
@@ -34,7 +34,7 @@
       </span>
     </a>
 
-    <a class="btn-0" href="nap-gems/">
+    <a class="btn-0" href="topup-card">
       <span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.75v12.5h16.5V5.75H3.75z M3.75 8.25h16.5M7.5 12h1.5m-4.5 3h4.5"></path>
@@ -255,5 +255,5 @@
 </div>
   </section>
 <?php 
-    require_once(__DIR__."/public/head-header-footer/footer.php");
+    require_once(__DIR__."/includes/footer.php");
 ?>

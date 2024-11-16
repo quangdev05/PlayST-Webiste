@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th10 10, 2024 lúc 09:15 AM
+-- Thời gian đã tạo: Th10 16, 2024 lúc 06:15 AM
 -- Phiên bản máy phục vụ: 10.5.26-MariaDB
 -- Phiên bản PHP: 8.3.11
 
@@ -54,7 +54,7 @@ CREATE TABLE `authme` (
 --
 
 INSERT INTO `authme` (`id`, `username`, `realname`, `password`, `ip`, `lastlogin`, `x`, `y`, `z`, `world`, `regdate`, `regip`, `yaw`, `pitch`, `email`, `isLogged`, `hasSession`, `totp`, `uuid`) VALUES
-(0, 'gnauq59', 'GnauQ59', '$SHA$c8ebca2ee64c47a4$b435712ca7fbd2dff0de273608d31778709ee34a7dbac9dda48b27d352f5e1c8', '14.233.41.111', 1728307988212, 26.5, 60.0625, -11.5, 'villagelobby', 0, NULL, -164.641, 1.33639, 'duyquang6991@gmail.com', 0, 1, NULL, '12345555'),
+(0, 'gnauq59', 'GnauQ59', '$SHA$44cb4861310c234b$7dd7d0549e4ef672881792b2dc93760ca65d640758774a6cae41897dad847cdd', '14.233.41.111', 1728307988212, 26.5, 60.0625, -11.5, 'villagelobby', 0, NULL, -164.641, 1.33639, 'duyquang6991@gmail.com', 0, 1, NULL, '12345555'),
 (116, '113nguyen', '113nguyen', '$SHA$a57bb4fb4350271c$92accde5fdac33984f9176d3d38ec0967e4f0778399d57d50416b5cebe5b311c', '116.96.45.116', 1730869205188, 2017.8089345251583, 53.28834277574485, -4295.861016260465, 'world', 0, NULL, -1.52714, 12.4219, 'nguyenngoc25082007@gmail.com', 0, 1, NULL, NULL),
 (372, 'phantatdung', 'phantatdung', '$SHA$3f67c125def466d4$72823fe4c3ce3c47b996dd1a1322f142f091fc27e5098c735a63805717ad15f7', '113.163.253.100', 1724319278174, -30.18042086718484, 69.0625, 61.75560372559878, 'villagelobby', 0, NULL, -178.349, 34.5, 'phantatdung233@gmail.com', 0, 1, NULL, NULL),
 (373, 'baoduongdeptrai', 'baoduongdeptrai', '$SHA$5b6c35f8ecf53723$975bd5ae71990f6daba9ea015f1610fe97d064f205d792a75de85c4a8c0a79d2', '171.239.139.17', 1721223329884, -4.521056030289605, 69, 2.0481197751607616, 'spawn', 0, NULL, 107.012, 11.928, 'duongquocbao06092008@gmail.com', 0, 1, NULL, NULL),
@@ -2017,7 +2017,7 @@ INSERT INTO `freegems_info` (`id`, `user_id`, `count`, `turns`, `total`) VALUES
 (94, 478, 0, 0, 0),
 (95, 479, 0, 0, 0),
 (96, 480, 0, 0, 0),
-(97, 0, 0, 0, 0),
+(97, 0, 1, 0, 1),
 (98, 526, 1, 0, 61),
 (99, 578, 1, 0, 271),
 (100, 394, 3, 0, 13),
@@ -2044,7 +2044,8 @@ INSERT INTO `freegems_info` (`id`, `user_id`, `count`, `turns`, `total`) VALUES
 (121, 1143, 0, 0, 0),
 (122, 1153, 0, 0, 0),
 (123, 1156, 0, 0, 0),
-(124, 1198, 0, 0, 0);
+(124, 1198, 0, 0, 0),
+(125, 1322, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2738,7 +2739,9 @@ INSERT INTO `link_logs` (`id`, `user_id`, `token`, `used`, `create_time`) VALUES
 (701, 578, 'ccb7838a78851f776be1375859e320e5', 0, '04/10/2024'),
 (702, 409, '2f3d9e14f8547fbb6f35c6112f1f326d', 0, '15/10/2024'),
 (703, 394, '0ec88af8bb23d8afa5dc899154d00411', 1, '27/10/2024'),
-(704, 394, 'd3e44eb1d07918bfb5d0d2c02453b23e', 0, '27/10/2024');
+(704, 394, 'd3e44eb1d07918bfb5d0d2c02453b23e', 0, '27/10/2024'),
+(705, 0, '6de97368e8658992e63f4f4eba2644ed', 1, '16/11/2024'),
+(706, 0, '084cfa8006006ef1e55b07d1fc1600e9', 0, '16/11/2024');
 
 -- --------------------------------------------------------
 
@@ -3287,7 +3290,49 @@ INSERT INTO `login_logs` (`id`, `user_id`, `ip`, `nation`, `source`, `create_tim
 (733, 394, '113.165.251.119', 'VN', 'Website', '20:41 27/10/2024'),
 (734, 0, '14.233.192.15', 'VN', 'Website', '18:47 01/11/2024'),
 (735, 0, '14.233.192.15', 'VN', 'Website', '22:52 01/11/2024'),
-(736, 0, '14.233.192.15', 'VN', 'Website', '22:53 01/11/2024');
+(736, 0, '14.233.192.15', 'VN', 'Website', '22:53 01/11/2024'),
+(737, 0, '113.165.151.183', 'VN', 'Website', '22:18 12/11/2024'),
+(738, 0, '113.165.151.183', 'VN', 'Website', '22:30 12/11/2024'),
+(739, 409, '14.162.150.96', 'VN', 'Website', '20:42 14/11/2024'),
+(740, 0, '113.165.151.183', 'VN', 'Website', '22:38 15/11/2024'),
+(741, 0, '113.165.151.183', 'VN', 'Website', '23:09 15/11/2024'),
+(742, 0, '113.165.151.183', 'VN', 'Website', '23:50 15/11/2024'),
+(743, 0, '113.165.151.183', 'VN', 'Website', '10:43 16/11/2024'),
+(744, 0, '113.165.151.183', 'VN', 'Website', '11:22 16/11/2024'),
+(745, 0, '113.165.151.183', 'VN', 'Website', '11:25 16/11/2024'),
+(746, 0, '113.165.151.183', 'VN', 'Website', '11:26 16/11/2024'),
+(747, 0, '113.165.151.183', 'VN', 'Website', '11:28 16/11/2024'),
+(748, 0, '113.165.151.183', 'VN', 'Website', '11:29 16/11/2024'),
+(749, 0, '113.165.151.183', 'VN', 'Website', '11:30 16/11/2024'),
+(750, 0, '113.165.151.183', 'VN', 'Website', '11:30 16/11/2024'),
+(751, 0, '113.165.151.183', 'VN', 'Website', '11:32 16/11/2024'),
+(752, 0, '113.165.151.183', 'VN', 'Website', '11:32 16/11/2024'),
+(753, 0, '113.165.151.183', 'VN', 'Website', '11:33 16/11/2024'),
+(754, 0, '113.165.151.183', 'VN', 'Website', '11:35 16/11/2024'),
+(755, 0, '113.165.151.183', 'VN', 'Website', '11:35 16/11/2024'),
+(756, 0, '113.165.151.183', 'VN', 'Website', '11:37 16/11/2024'),
+(757, 0, '113.165.151.183', 'VN', 'Website', '11:38 16/11/2024'),
+(758, 0, '113.165.151.183', 'VN', 'Website', '11:39 16/11/2024'),
+(759, 0, '113.165.151.183', 'VN', 'Website', '11:52 16/11/2024'),
+(760, 0, '113.165.151.183', 'VN', 'Website', '12:12 16/11/2024'),
+(761, 0, '113.165.151.183', 'VN', 'Website', '12:13 16/11/2024'),
+(762, 0, '113.165.151.183', 'VN', 'Website', '13:04 16/11/2024'),
+(763, 0, '113.165.151.183', 'VN', 'Website', '14:24 16/11/2024'),
+(764, 0, '113.165.151.183', 'VN', 'Website', '14:25 16/11/2024'),
+(765, 0, '113.165.151.183', 'VN', 'Website', '14:28 16/11/2024'),
+(766, 0, '113.165.151.183', 'VN', 'Website', '14:31 16/11/2024'),
+(767, 0, '113.165.151.183', 'VN', 'Website', '14:32 16/11/2024'),
+(768, 0, '113.165.151.183', 'VN', 'Website', '14:36 16/11/2024'),
+(769, 0, '113.165.151.183', 'VN', 'Website', '14:47 16/11/2024'),
+(770, 0, '113.165.151.183', 'VN', 'Website', '14:55 16/11/2024'),
+(771, 0, '113.165.151.183', 'VN', 'Website', '14:57 16/11/2024'),
+(772, 0, '113.165.151.183', 'VN', 'Website', '15:12 16/11/2024'),
+(773, 0, '113.165.151.183', 'VN', 'Website', '15:19 16/11/2024'),
+(774, 0, '113.165.151.183', 'VN', 'Website', '15:40 16/11/2024'),
+(775, 1322, '113.165.151.183', 'VN', 'Website', '15:43 16/11/2024'),
+(776, 0, '113.165.151.183', 'VN', 'Website', '15:47 16/11/2024'),
+(777, 0, '113.165.151.183', 'VN', 'Website', '15:57 16/11/2024'),
+(778, 0, '113.165.151.183', 'VN', 'Website', '16:30 16/11/2024');
 
 -- --------------------------------------------------------
 
@@ -3371,7 +3416,10 @@ INSERT INTO `settings` (`id`, `name`, `value`) VALUES
 (1, 'host_rcon', '103.29.2.188'),
 (2, 'port_rcon', '19132'),
 (3, 'pass_rcon', 'PlaySTNetwork24'),
-(4, 'timeout_rcon', '3');
+(4, 'timeout_rcon', '3'),
+(5, 'partner_id', '75416792314'),
+(6, 'partner_key', 'a06abea768b4425382b5caa17f7a88b8'),
+(7, 'discord_webhook_url', 'https://discord.com/api/webhooks/1277184378728091678/HEqZnq1l4BVMD7ZMP7HJBRWbmX828x7mTC99sC7QUu-91xQcNy8JpQNu4Zlvvd3WFvaj');
 
 -- --------------------------------------------------------
 
@@ -3423,7 +3471,8 @@ INSERT INTO `tong_nap` (`user_id`, `tongnap`) VALUES
 (1143, '0'),
 (1153, '0'),
 (1156, '0'),
-(1198, '0');
+(1198, '0'),
+(1322, '0');
 
 -- --------------------------------------------------------
 
@@ -3550,7 +3599,7 @@ ALTER TABLE `vong_quay`
 -- AUTO_INCREMENT cho bảng `authme`
 --
 ALTER TABLE `authme`
-  MODIFY `id` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1322;
+  MODIFY `id` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1324;
 
 --
 -- AUTO_INCREMENT cho bảng `dotman_napthe_log`
@@ -3568,25 +3617,25 @@ ALTER TABLE `dotman_point_log`
 -- AUTO_INCREMENT cho bảng `freegems_info`
 --
 ALTER TABLE `freegems_info`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=125;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=126;
 
 --
 -- AUTO_INCREMENT cho bảng `link_logs`
 --
 ALTER TABLE `link_logs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=705;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=707;
 
 --
 -- AUTO_INCREMENT cho bảng `login_logs`
 --
 ALTER TABLE `login_logs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=737;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=779;
 
 --
 -- AUTO_INCREMENT cho bảng `recharge_logs`
 --
 ALTER TABLE `recharge_logs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=898;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=902;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
