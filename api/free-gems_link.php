@@ -17,7 +17,7 @@ if($row = $PTDUNG->get_row('SELECT * FROM `link_logs` WHERE `user_id` = "'.$user
 }
 
 $api_token = '13cb48b55203966aca26c27074b60cdb5ce32683';
-$long_url = urlencode($_SERVER['HTTP_HOST'].'/free-gems/check_success.php?token='.$token);
+$long_url = urlencode($_SERVER['HTTP_HOST'].'/includes/check_success.php?token='.$token);
 $api_url = curl_get("https://megaurl.in/api?api={$api_token}&url={$long_url}");
 $result = json_decode($api_url, true);
 $data = "<div class='flex flex-row gap-2 user-info'><div class='font-medium'>Link:</div><div>".$result['shortenedUrl']."</div></div>";
