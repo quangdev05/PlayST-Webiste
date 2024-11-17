@@ -8,7 +8,7 @@ $ptdung = new PTDUNG();
 $rcon_host = $ptdung->site('host_rcon');
 $rcon_port = $ptdung->site('port_rcon');
 $rcon_password = $ptdung->site('pass_rcon');
-$discord_webhook_url = $ptdung->site('discord_webhook_url');
+$discord_webhook_url = $ptdung->site('discord_webhook_recharge_bank');
 $timeout_rcon = (int)$ptdung->site('timeout_rcon'); // Chuyển đổi giá trị thành số nguyên
 
 // Kiểm tra nếu không lấy được giá trị nào từ database

@@ -1,3 +1,18 @@
 [16-Nov-2024 09:18:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/tplaystclick/public_html/backend/tong-nap_card.php on line 40
 [16-Nov-2024 09:18:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/tplaystclick/public_html/backend/tong-nap_card.php on line 40
 [16-Nov-2024 09:18:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/tplaystclick/public_html/backend/tong-nap_card.php on line 40
+[17-Nov-2024 10:04:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tplaystclick_playst.recharge_logs' doesn't exist in /home/tplaystclick/public_html/backend/tong-nap_card.php:18
+Stack trace:
+#0 /home/tplaystclick/public_html/backend/tong-nap_card.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/tplaystclick/public_html/backend/tong-nap_card.php on line 18
+[17-Nov-2024 10:04:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tplaystclick_playst.recharge_logs' doesn't exist in /home/tplaystclick/public_html/backend/tong-nap_card.php:18
+Stack trace:
+#0 /home/tplaystclick/public_html/backend/tong-nap_card.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/tplaystclick/public_html/backend/tong-nap_card.php on line 18
+[17-Nov-2024 10:04:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tplaystclick_playst.recharge_logs' doesn't exist in /home/tplaystclick/public_html/backend/tong-nap_card.php:18
+Stack trace:
+#0 /home/tplaystclick/public_html/backend/tong-nap_card.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/tplaystclick/public_html/backend/tong-nap_card.php on line 18

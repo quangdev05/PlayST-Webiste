@@ -16,7 +16,7 @@ $skin_url = getSkinURL($_SESSION['username']);
     function renderLink() {
         $.ajax({
             type: 'POST',
-            url: '../api/free-gems_link.php',
+            url: '../api/api-link.php',
             data: {
                 id: <?= $_SESSION['user_id']; ?>
             },

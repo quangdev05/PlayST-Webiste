@@ -211,8 +211,8 @@ function checklogin() {
 function Doithe($loaithe, $menhgia, $seri, $pin, $code)
 {
     global $PTDUNG;
-    $partner_id = $PTDUNG->site('partner_id');
-    $partner_key = $PTDUNG->site('partner_key');
+    $partner_id = $PTDUNG->site('card_partner_id');
+    $partner_key = $PTDUNG->site('card_partner_key');
     
     $ch = curl_init();
     curl_setopt_array($ch, array(

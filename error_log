@@ -1210,3 +1210,88 @@ Stack trace:
 [16-Nov-2024 11:09:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tplaystclick/public_html/config/db.php on line 2
 [16-Nov-2024 11:09:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tplaystclick/public_html/config/db.php on line 2
 [16-Nov-2024 11:14:36 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tplaystclick/public_html/config/db.php on line 2
+[17-Nov-2024 06:18:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 30
+[17-Nov-2024 06:18:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 50
+[17-Nov-2024 06:18:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 2
+[17-Nov-2024 06:18:56 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/home-freegems.php on line 3
+[17-Nov-2024 06:18:57 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 06:18:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 21
+[17-Nov-2024 06:19:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 30
+[17-Nov-2024 06:19:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 50
+[17-Nov-2024 06:19:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 2
+[17-Nov-2024 06:19:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/home-freegems.php on line 3
+[17-Nov-2024 06:19:05 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 06:19:05 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 21
+[17-Nov-2024 06:20:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 30
+[17-Nov-2024 06:20:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 50
+[17-Nov-2024 06:20:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 2
+[17-Nov-2024 06:20:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/home-freegems.php on line 3
+[17-Nov-2024 06:20:39 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 06:20:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 21
+[17-Nov-2024 06:20:49 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tplaystclick/public_html/register.php on line 11
+[17-Nov-2024 08:12:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 30
+[17-Nov-2024 08:12:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 50
+[17-Nov-2024 08:12:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 2
+[17-Nov-2024 08:12:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/home-freegems.php on line 3
+[17-Nov-2024 08:12:18 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 08:12:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 21
+[17-Nov-2024 10:48:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 30
+[17-Nov-2024 10:48:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 50
+[17-Nov-2024 10:48:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 2
+[17-Nov-2024 10:48:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/home-freegems.php on line 3
+[17-Nov-2024 10:48:19 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 10:48:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 21
+[17-Nov-2024 10:48:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 30
+[17-Nov-2024 10:48:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 50
+[17-Nov-2024 10:48:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 2
+[17-Nov-2024 10:48:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/home-freegems.php on line 3
+[17-Nov-2024 10:48:27 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 10:48:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 21
+[17-Nov-2024 10:48:33 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tplaystclick/public_html/register.php on line 11
+[17-Nov-2024 10:48:35 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tplaystclick/public_html/register.php on line 11
+[17-Nov-2024 10:48:36 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tplaystclick/public_html/register.php on line 11
+[17-Nov-2024 10:48:38 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tplaystclick/public_html/profile.php on line 8
+[17-Nov-2024 10:48:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/profile.php on line 10
+[17-Nov-2024 10:48:38 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 10:48:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/profile.php on line 14
+[17-Nov-2024 10:48:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/profile.php on line 31
+[17-Nov-2024 10:48:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/profile.php on line 37
+[17-Nov-2024 10:48:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: email in /home/tplaystclick/public_html/profile.php on line 41
+[17-Nov-2024 10:48:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/profile.php on line 59
+[17-Nov-2024 10:48:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/profile.php on line 80
+[17-Nov-2024 10:48:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/profile.php on line 111
+[17-Nov-2024 10:48:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 30
+[17-Nov-2024 10:48:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 50
+[17-Nov-2024 10:48:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 2
+[17-Nov-2024 10:48:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/home-freegems.php on line 3
+[17-Nov-2024 10:48:43 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 10:48:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 21
+[17-Nov-2024 10:48:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 30
+[17-Nov-2024 10:48:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 50
+[17-Nov-2024 10:48:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 2
+[17-Nov-2024 10:48:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/home-freegems.php on line 3
+[17-Nov-2024 10:48:47 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 10:48:47 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 21
+[17-Nov-2024 13:36:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 30
+[17-Nov-2024 13:36:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 50
+[17-Nov-2024 13:36:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 2
+[17-Nov-2024 13:36:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/home-freegems.php on line 3
+[17-Nov-2024 13:36:36 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 13:36:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 21
+[17-Nov-2024 16:57:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 30
+[17-Nov-2024 16:57:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/header-freegems.php on line 50
+[17-Nov-2024 16:57:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 2
+[17-Nov-2024 16:57:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: username in /home/tplaystclick/public_html/includes/home-freegems.php on line 3
+[17-Nov-2024 16:57:51 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.mojang.com/users/profiles/minecraft/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/tplaystclick/public_html/includes/helpers.php on line 179
+[17-Nov-2024 16:57:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: user_id in /home/tplaystclick/public_html/includes/home-freegems.php on line 21
