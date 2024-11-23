@@ -219,7 +219,7 @@ function Doithe($loaithe, $menhgia, $seri, $pin, $code)
         CURLOPT_RETURNTRANSFER => 1,
         CURLOPT_CONNECTTIMEOUT => 0,
         CURLOPT_TIMEOUT => 16,
-        CURLOPT_URL => 'http://thesieuviet.net/api/charging',
+        CURLOPT_URL => 'http://thesieuviet.net/chargingws/v2',
         CURLOPT_USERAGENT => 'PTD',
         CURLOPT_POST => 1,
         CURLOPT_SSL_VERIFYPEER => false,

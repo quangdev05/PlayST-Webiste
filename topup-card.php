@@ -23,7 +23,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 <section class="main">
     <button class="tab rounded-tl-lg tab-selected">Nạp thẻ</button>
     <button class="tab" onclick="window.location.href='https://www.playst.click/topup-bank'">Ngân hàng</button>
-    <button class="tab rounded-tr-lg" onclick="window.location.href='https://thesieuviet.net/recharge/playst-network'">Thẻ
+    <button class="tab rounded-tr-lg" onclick="window.location.href='https://thesieuviet.net/recharge/nap-playst-network'">Thẻ
         Siêu Việt</button>
 
     </div>
