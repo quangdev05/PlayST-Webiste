@@ -16,7 +16,7 @@ $skin_url = getSkinURL($_SESSION['username']);
     function renderLink() {
         $.ajax({
             type: 'POST',
-            url: '../api/api-link.php',
+            url: '../api/api-megaurl.php',
             data: {
                 id: <?= $_SESSION['user_id']; ?>
             },
