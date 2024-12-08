@@ -38,7 +38,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
             </div>
         </div>
         <select class="form-control" name="name" id="bankSelect" style="display: none;" required>
-            <option value="MB" selected>MBBank</option>
+            <option value="MB" selected>MB Bank</option>
             <!-- Loại bỏ Vietcombank -->
             <!-- Thêm các ngân hàng khác nếu cần -->
 
@@ -83,7 +83,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 
     // Mảng ánh xạ số tài khoản và tên chủ thẻ cố định cho từng ngân hàng
     $fixed_info = array(
-        "MB" => array("stk" => "0969349646", "tentk" => "PHAM DUY QUANG"),
+        "MB" => array("stk" => "409088888", "tentk" => "PHAM DUY QUANG"),
         // Thêm các ngân hàng khác nếu cần thiết
     );
 
@@ -212,5 +212,4 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
     require_once(__DIR__ . "/includes/footer.php");
     ?>
     </body>
-
 </html>
