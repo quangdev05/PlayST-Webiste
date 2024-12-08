@@ -1,4 +1,4 @@
-<php>
+<html>
 <?php
 session_start(); // Khởi động session
 $pageTitle = "Nạp Gems (card) | PlayST Network";
@@ -211,5 +211,4 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
             }
         }
     </style>
-
-</php>
+</html>
