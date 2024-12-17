@@ -38,13 +38,13 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
             </div>
         </div>
         <select class="form-control" name="name" id="bankSelect" style="display: none;" required>
-            <option value="MB" selected>MB Bank</option>
+            <option value="MB" selected>MBBank</option>
             <!-- Loại bỏ Vietcombank -->
             <!-- Thêm các ngân hàng khác nếu cần -->
 
         </select>
 
-        <input type="text" class="form-control" name="MB" value="MB Bank" id="MB" required placeholder="Ngân hàng"
+        <input type="text" class="form-control" name="MB" value="MBBank" id="MB" required placeholder="Ngân hàng"
             readonly />
         <input type="number" class="form-control" name="stk" id="stkInput" required placeholder="Số tài khoản"
             readonly />
